@@ -1,0 +1,90 @@
+Script started on 2026-11-12 06:51:11+03:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ su - ochwada3
+[?2004lPassword: 
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+[?2004h]0;ochwada3@adil-VirtualBox: ~[01;32mochwada3@adil-VirtualBox[00m:[01;34m~[00m$ whoami
+[?2004lochwada3
+[?2004h]0;ochwada3@adil-VirtualBox: ~[01;32mochwada3@adil-VirtualBox[00m:[01;34m~[00m$ sudo su
+[?2004l[sudo] password for ochwada3: 
+[?2004h]0;root@adil-VirtualBox: /home/ochwada3root@adil-VirtualBox:/home/ochwada3# whoami
+[?2004lroot
+[?2004h]0;root@adil-VirtualBox: /home/ochwada3root@adil-VirtualBox:/home/ochwada3# groupadd Students
+[?2004l[?2004h]0;root@adil-VirtualBox: /home/ochwada3root@adil-VirtualBox:/home/ochwada3# usermod -aG Students ochwada2
+[?2004l[?2004h]0;root@adil-VirtualBox: /home/ochwada3root@adil-VirtualBox:/home/ochwada3# getent[K[K[K[K[K[K[7mgetent group Students[27mgetent group Students
+[?2004lStudents:x:1004:ochwada2
+[?2004h]0;root@adil-VirtualBox: /home/ochwada3root@adil-VirtualBox:/home/ochwada3# [7mgroups ochwada1 ochwada2[27mgroups ochwada1 ochwada2
+[?2004lochwada1 : ochwada1 users
+ochwada2 : ochwada2 users Students
+[?2004h]0;root@adil-VirtualBox: /home/ochwada3root@adil-VirtualBox:/home/ochwada3# [7musermod -aG Students ochwada1[27musermod -aG Students ochwada1
+[?2004l[?2004h]0;root@adil-VirtualBox: /home/ochwada3root@adil-VirtualBox:/home/ochwada3# [7mgetent group Students[27mgetent group Students
+[?2004lStudents:x:1004:ochwada2,ochwada1
+[?2004h]0;root@adil-VirtualBox: /home/ochwada3root@adil-VirtualBox:/home/ochwada3# [7mgroups ochwada1 ochwada2[27mgroups ochwada1 ochwada2
+[?2004lochwada1 : ochwada1 users Students
+ochwada2 : ochwada2 users Students
+[?2004h]0;root@adil-VirtualBox: /home/ochwada3root@adil-VirtualBox:/home/ochwada3# exit
+[?2004lexit
+[?2004h]0;ochwada3@adil-VirtualBox: ~[01;32mochwada3@adil-VirtualBox[00m:[01;34m~[00m$ [7mcd ~[27mcd ~
+[?2004l[?2004h]0;ochwada3@adil-VirtualBox: ~[01;32mochwada3@adil-VirtualBox[00m:[01;34m~[00m$ [7mecho 'All students need to be in recreation area at [27m[7m1[27m[7m8:00! Sign below if you got this message.' > important[27m[Aecho 'All students need to be in recreation area at 18:00! Sign below if you got this message.' > important
+[?2004l[?2004h]0;ochwada3@adil-VirtualBox: ~[01;32mochwada3@adil-VirtualBox[00m:[01;34m~[00m$ [7mls -l important[27mls -l important
+[?2004l-rw-rw-r-- 1 ochwada3 ochwada3 89 Nov 12 07:30 important
+[?2004h]0;ochwada3@adil-VirtualBox: ~[01;32mochwada3@adil-VirtualBox[00m:[01;34m~[00m$ [7mchmod o+w important[27mchmod o+w important
+[?2004l[?2004h]0;ochwada3@adil-VirtualBox: ~[01;32mochwada3@adil-VirtualBox[00m:[01;34m~[00m$ [7mchmod o+x /home/ochwada3[27mchmod o+x /home/ochwada3
+[?2004l[?2004h]0;ochwada3@adil-VirtualBox: ~[01;32mochwada3@adil-VirtualBox[00m:[01;34m~[00m$ [7mls -l important[27mls -l important
+[?2004l-rw-rw-rw- 1 ochwada3 ochwada3 89 Nov 12 07:30 important
+[?2004h]0;ochwada3@adil-VirtualBox: ~[01;32mochwada3@adil-VirtualBox[00m:[01;34m~[00m$ [7mls -ld /home/ochwada3[27mls -ld /home/ochwada3
+[?2004ldrwxr-x--x 2 ochwada3 ochwada3 4096 Nov 12 07:30 [0m[01;34m/home/ochwada3[0m
+[?2004h]0;ochwada3@adil-VirtualBox: ~[01;32mochwada3@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo su[27msudo su
+[?2004l[sudo] password for ochwada3: 
+Sorry, try again.
+[sudo] password for ochwada3: 
+[?2004h]0;root@adil-VirtualBox: /home/ochwada3root@adil-VirtualBox:/home/ochwada3# [7mcd /home/ochwada3[27mcd /home/ochwada3
+[?2004l[?2004h]0;root@adil-VirtualBox: /home/ochwada3root@adil-VirtualBox:/home/ochwada3# [7mecho 'All personal! University will be clos[27m[7me[27m[7md[27m[A]0;root@adil-VirtualBox: /home/ochwada3root@adil-VirtualBox:/home/ochwada3# echo 'All personal! University will be closed
+[?2004l[?2004h> [7mtomorrow!' > 'very important!'[27m[C[Ctomorrow!' > 'very important!'
+[?2004l[?2004h]0;root@adil-VirtualBox: /home/ochwada3root@adil-VirtualBox:/home/ochwada3# [7mls -la[27mls -la
+[?2004ltotal 28
+drwxr-x--x 2 ochwada3 ochwada3 4096 Nov 12 07:37  [0m[01;34m.[0m
+drwxr-xr-x 6 root     root     4096 Nov 12 06:47  [01;34m..[0m
+-rw-r--r-- 1 ochwada3 ochwada3  220 Nov 12 06:47  .bash_logout
+-rw-r--r-- 1 ochwada3 ochwada3 3771 Nov 12 06:47  .bashrc
+-rw-rw-rw- 1 ochwada3 ochwada3  127 Nov 12 07:34  important
+-rw-r--r-- 1 ochwada3 ochwada3  807 Nov 12 06:47  .profile
+-rw-r--r-- 1 ochwada3 ochwada3    0 Nov 12 06:52  .sudo_as_admin_successful
+-rw-r--r-- 1 root     root       50 Nov 12 07:37 'very important!'
+[?2004h]0;root@adil-VirtualBox: /home/ochwada3root@adil-VirtualBox:/home/ochwada3# [7mls -l important 'very important!'[27mls -l important 'very important!'
+[?2004l-rw-rw-rw- 1 ochwada3 ochwada3 127 Nov 12 07:34  important
+-rw-r--r-- 1 root     root      50 Nov 12 07:37 'very important!'
+[?2004h]0;root@adil-VirtualBox: /home/ochwada3root@adil-VirtualBox:/home/ochwada3# [7mcat 'very important!'[27mcat 'very important!'
+[?2004lAll personal! University will be closed
+tomorrow!
+[?2004h]0;root@adil-VirtualBox: /home/ochwada3root@adil-VirtualBox:/home/ochwada3# [7mecho 'All personal! University will be clos[27m[7me[27m[7md[27m[A]0;root@adil-VirtualBox: /home/ochwada3root@adil-VirtualBox:/home/ochwada3# echo 'All personal! University will be closed
+[?2004l[?2004h> [7mtomorrow!' > 'very important!'[27m[C[Ctomorrow!' > 'very important!'
+[?2004l[?2004h]0;root@adil-VirtualBox: /home/ochwada3root@adil-VirtualBox:/home/ochwada3# [7mcat 'very important!'[27mcat 'very important!'
+[?2004lAll personal! University will be closed
+tomorrow!
+[?2004h]0;root@adil-VirtualBox: /home/ochwada3root@adil-VirtualBox:/home/ochwada3# printf 'All personal! University will be cl osed
+[?2004l[?2004h> tomorrow!\n' > 'very important!'
+[?2004l[?2004h]0;root@adil-VirtualBox: /home/ochwada3root@adil-VirtualBox:/home/ochwada3# cat -A 'very important!'
+[?2004lAll personal! University will be closed$
+tomorrow!$
+[?2004h]0;root@adil-VirtualBox: /home/ochwada3root@adil-VirtualBox:/home/ochwada3# [7mnano 'very important!'[27mnano 'very important!'
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;33H(B[0;7m[ Read 2 lines ](B[m[H(B[0;7m  GNU nano 7.2                     very important!                              [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2dAll personal! University will be closed[3dtomorrow![A[?12l[?25h[?25l[1;52H(B[0;7m*[79G(B[m7[2;21r8[2dM[1;24r[3;1H[?12l[?25h[?25l[2;21r[21;1H
+[1;24r[2;1H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25hA[?25l[?12l[?25hl[?25l[?12l[?25h[3d[?25l[?12l[?25hm[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25hr[?25l[?12l[?25ho[?25l[?12l[?25hw[?25l[?12l[?25h![?25l[?12l[?25h[4d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3;10H[?25l[?12l[?25h [?25l[22d[K[?12l[?25h[3;8H [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25Script started on 2026-11-12 15:16:04+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="127" LINES="53"]
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msu - ochwada3[27msu - ochwada3
+[?2004lPassword: 
+[?2004h]0;ochwada3@adil-VirtualBox: ~[01;32mochwada3@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo su[27msudo su
+[?2004l[sudo] password for ochwada3: 
+[?2004h]0;root@adil-VirtualBox: /home/ochwada3root@adil-VirtualBox:/home/ochwada3# [7mcat -A 'very important!'[27mcat -A 'very important!'
+[?2004lAll personal! University will be closed tomorrow!$
+[?2004h]0;root@adil-VirtualBox: /home/ochwada3root@adil-VirtualBox:/home/ochwada3# [7mls -l important 'very important!'[27mls -l important 'very important!'
+[?2004l-rw-rw-rw- 1 ochwada3 ochwada3 127 Nov 12 07:34  important
+-rw-r--r-- 1 root     root      50 Nov 12 07:46 'very important!'
+[?2004h]0;root@adil-VirtualBox: /home/ochwada3root@adil-VirtualBox:/home/ochwada3# exit
+[?2004lexit
+[?2004h]0;ochwada3@adil-VirtualBox: ~[01;32mochwada3@adil-VirtualBox[00m:[01;34m~[00m$ exit
+[?2004llogout
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-12 15:17:57+03:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,37 @@
+Script started on 2026-11-12 07:21:09+03:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="80" LINES="24"]
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msu - ochwada2[27msu - ochwada2
+[?2004lPassword: 
+[?2004h]0;ochwada2@adil-VirtualBox: ~[01;32mochwada2@adil-VirtualBox[00m:[01;34m~[00m$ whoami
+[?2004lochwada2
+[?2004h]0;ochwada2@adil-VirtualBox: ~[01;32mochwada2@adil-VirtualBox[00m:[01;34m~[00m$ groups
+[?2004lochwada2 users Students
+[?2004h]0;ochwada2@adil-VirtualBox: ~[01;32mochwada2@adil-VirtualBox[00m:[01;34m~[00m$ cd /root
+[?2004l-bash: cd: /root: Permission denied
+[?2004h]0;ochwada2@adil-VirtualBox: ~[01;32mochwada2@adil-VirtualBox[00m:[01;34m~[00m$ ls -ld /root
+[?2004ldrwx------ 5 root root 4096 Nov 11 14:18 [0m[01;34m/root[0m
+[?2004h]0;ochwada2@adil-VirtualBox: ~[01;32mochwada2@adil-VirtualBox[00m:[01;34m~[00m$ [7mcat /home/ochwada1/schedule[27mcat /home/ochwada1/schedule
+[?2004l10:00 Maths
+11:40 Physics
+13:30 Economics
+15:20 Programming
+[?2004h]0;ochwada2@adil-VirtualBox: ~[01;32mochwada2@adil-VirtualBox[00m:[01;34m~[00m$ [7mecho "17:00 Databases" >> /home/ochwada1/schedule[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "17:00 Databases" >> /home/ochwada1/schedule
+[?2004l[?2004h]0;ochwada2@adil-VirtualBox: ~[01;32mochwada2@adil-VirtualBox[00m:[01;34m~[00m$ [7mcat /home/ochwada1/schedule[27mcat /home/ochwada1/schedule
+[?2004l10:00 Maths
+11:40 Physics
+13:30 Economics
+15:20 Programming
+17:00 Databases
+[?2004h]0;ochwada2@adil-VirtualBox: ~[01;32mochwada2@adil-VirtualBox[00m:[01;34m~[00m$ [7mcat /home/ochwada3/important[27mcat /home/ochwada3/important
+[?2004lAll students need to be in recreation area at 18:00! Sign below if you got this message.
+ochwada1: received
+[?2004h]0;ochwada2@adil-VirtualBox: ~[01;32mochwada2@adil-VirtualBox[00m:[01;34m~[00m$ [7mecho 'ochwada2: received' >> /home/ochwada3/importan[27m[7mt[27m[A]0;ochwada2@adil-VirtualBox: ~[01;32mochwada2@adil-VirtualBox[00m:[01;34m~[00m$ echo 'ochwada2: received' >> /home/ochwada3/important
+[?2004l[?2004h]0;ochwada2@adil-VirtualBox: ~[01;32mochwada2@adil-VirtualBox[00m:[01;34m~[00m$ [7mcat /home/ochwada3/important[27mcat /home/ochwada3/important
+[?2004lAll students need to be in recreation area at 18:00! Sign below if you got this message.
+ochwada1: received
+ochwada2: received
+[?2004h]0;ochwada2@adil-VirtualBox: ~[01;32mochwada2@adil-VirtualBox[00m:[01;34m~[00m$ exit
+[?2004llogout
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-12 07:47:44+03:00 [COMMAND_EXIT_CODE="0"]

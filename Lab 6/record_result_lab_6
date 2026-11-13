@@ -1,0 +1,782 @@
+Script started on 2026-11-12 21:22:32+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mls -l[27mls -l
+[?2004ltotal 192
+drwxr-xr-x 3 adil adil   4096 Nov 12 20:42 [0m[01;34mDesktop[0m
+drwxr-xr-x 2 adil adil   4096 Nov 11 14:19 [01;34mDocuments[0m
+drwxr-xr-x 2 adil adil   4096 Nov 11 14:19 [01;34mDownloads[0m
+drwxr-xr-x 2 adil adil   4096 Nov 11 14:19 [01;34mMusic[0m
+drwxr-xr-x 2 adil adil   4096 Nov 11 14:19 [01;34mPictures[0m
+drwxr-xr-x 2 adil adil   4096 Nov 11 14:19 [01;34mPublic[0m
+-rw-rw-r-- 1 adil adil 157850 Nov 12 20:26 record_result_lab_5
+-rw-rw-r-- 1 adil adil      0 Nov 12 21:22 record_result_lab_6
+drwx------ 5 adil adil   4096 Nov 12 14:59 [01;34msnap[0m
+drwxr-xr-x 2 adil adil   4096 Nov 11 14:19 [01;34mTemplates[0m
+drwxr-xr-x 2 adil adil   4096 Nov 11 14:19 [01;34mVideos[0m
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [K]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [K]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [K]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [K]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [K]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [K]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [K]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [K]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [K]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [K]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [K]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [K]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [K]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [K]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [K]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [K]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [K]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [K]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ ^[[200~ping habr.com~
+[?2004l[200~ping: command not found
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mping -D habr.com[27mping -D habr.com
+[?2004lPING habr.com (178.248.237.68) 56(84) bytes of data.
+[1794507828.843156] 64 bytes from 178.248.237.68: icmp_seq=1 ttl=54 time=16.7 ms
+[1794507829.835722] 64 bytes from 178.248.237.68: icmp_seq=2 ttl=54 time=16.4 ms
+[1794507830.839040] 64 bytes from 178.248.237.68: icmp_seq=3 ttl=54 time=17.8 ms
+[1794507831.839297] 64 bytes from 178.248.237.68: icmp_seq=4 ttl=54 time=15.9 ms
+[1794507832.848337] 64 bytes from 178.248.237.68: icmp_seq=5 ttl=54 time=16.2 ms
+[1794507833.856422] 64 bytes from 178.248.237.68: icmp_seq=6 ttl=54 time=16.2 ms
+[1794507834.857832] 64 bytes from 178.248.237.68: icmp_seq=7 ttl=54 time=15.2 ms
+[1794507836.877910] 64 bytes from 178.248.237.68: icmp_seq=9 ttl=54 time=16.0 ms
+[1794507837.878695] 64 bytes from 178.248.237.68: icmp_seq=10 ttl=54 time=14.7 ms
+[1794507838.880682] 64 bytes from 178.248.237.68: icmp_seq=11 ttl=54 time=15.7 ms
+[1794507839.882989] 64 bytes from 178.248.237.68: icmp_seq=12 ttl=54 time=16.0 ms
+[1794507840.890098] 64 bytes from 178.248.237.68: icmp_seq=13 ttl=54 time=20.5 ms
+[1794507841.886803] 64 bytes from 178.248.237.68: icmp_seq=14 ttl=54 time=15.4 ms
+[1794507842.888750] 64 bytes from 178.248.237.68: icmp_seq=15 ttl=54 time=15.1 ms
+[1794507843.890897] 64 bytes from 178.248.237.68: icmp_seq=16 ttl=54 time=15.9 ms
+[1794507844.894045] 64 bytes from 178.248.237.68: icmp_seq=17 ttl=54 time=15.7 ms
+[1794507845.897134] 64 bytes from 178.248.237.68: icmp_seq=18 ttl=54 time=16.0 ms
+[1794507846.897920] 64 bytes from 178.248.237.68: icmp_seq=19 ttl=54 time=15.3 ms
+[1794507847.901977] 64 bytes from 178.248.237.68: icmp_seq=20 ttl=54 time=16.7 ms
+[1794507848.902244] 64 bytes from 178.248.237.68: icmp_seq=21 ttl=54 time=16.0 ms
+[1794507849.902894] 64 bytes from 178.248.237.68: icmp_seq=22 ttl=54 time=15.5 ms
+[1794507850.906506] 64 bytes from 178.248.237.68: icmp_seq=23 ttl=54 time=16.6 ms
+[1794507851.908239] 64 bytes from 178.248.237.68: icmp_seq=24 ttl=54 time=16.3 ms
+[1794507852.910807] 64 bytes from 178.248.237.68: icmp_seq=25 ttl=54 time=17.5 ms
+[1794507853.915115] 64 bytes from 178.248.237.68: icmp_seq=26 ttl=54 time=16.3 ms
+[1794507854.917632] 64 bytes from 178.248.237.68: icmp_seq=27 ttl=54 time=14.5 ms
+[1794507855.920559] 64 bytes from 178.248.237.68: icmp_seq=28 ttl=54 time=15.7 ms
+[1794507856.923664] 64 bytes from 178.248.237.68: icmp_seq=29 ttl=54 time=16.7 ms
+[1794507857.924711] 64 bytes from 178.248.237.68: icmp_seq=30 ttl=54 time=15.6 ms
+[1794507858.926449] 64 bytes from 178.248.237.68: icmp_seq=31 ttl=54 time=15.4 ms
+[1794507859.929629] 64 bytes from 178.248.237.68: icmp_seq=32 ttl=54 time=15.9 ms
+[1794507860.931543] 64 bytes from 178.248.237.68: icmp_seq=33 ttl=54 time=14.6 ms
+[1794507861.933034] 64 bytes from 178.248.237.68: icmp_seq=34 ttl=54 time=15.1 ms
+[1794507862.934681] 64 bytes from 178.248.237.68: icmp_seq=35 ttl=54 time=15.2 ms
+[1794507863.938258] 64 bytes from 178.248.237.68: icmp_seq=36 ttl=54 time=15.8 ms
+[1794507864.939684] 64 bytes from 178.248.237.68: icmp_seq=37 ttl=54 time=15.7 ms
+[1794507865.945581] 64 bytes from 178.248.237.68: icmp_seq=38 ttl=54 time=20.8 ms
+[1794507866.942057] 64 bytes from 178.248.237.68: icmp_seq=39 ttl=54 time=15.1 ms
+[1794507868.033398] 64 bytes from 178.248.237.68: icmp_seq=40 ttl=54 time=18.3 ms
+[1794507869.032854] 64 bytes from 178.248.237.68: icmp_seq=41 ttl=54 time=15.8 ms
+[1794507870.034695] 64 bytes from 178.248.237.68: icmp_seq=42 ttl=54 time=15.6 ms
+[1794507871.036805] 64 bytes from 178.248.237.68: icmp_seq=43 ttl=54 time=15.4 ms
+[1794507872.039436] 64 bytes from 178.248.237.68: icmp_seq=44 ttl=54 time=16.3 ms
+[1794507873.040517] 64 bytes from 178.248.237.68: icmp_seq=45 ttl=54 time=15.1 ms
+[1794507874.042304] 64 bytes from 178.248.237.68: icmp_seq=46 ttl=54 time=15.0 ms
+[1794507875.045290] 64 bytes from 178.248.237.68: icmp_seq=47 ttl=54 time=16.0 ms
+^C
+--- habr.com ping statistics ---
+47 packets transmitted, 46 received, 2.12766% packet loss, time 46235ms
+rtt min/avg/max/mdev = 14.462/16.070/20.831/1.242 ms
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mping habr.com[27mping habr.com
+[?2004lPING habr.com (178.248.237.68) 56(84) bytes of data.
+64 bytes from 178.248.237.68: icmp_seq=1 ttl=54 time=15.5 ms
+64 bytes from 178.248.237.68: icmp_seq=2 ttl=54 time=16.0 ms
+64 bytes from 178.248.237.68: icmp_seq=3 ttl=54 time=17.0 ms
+64 bytes from 178.248.237.68: icmp_seq=4 ttl=54 time=16.7 ms
+64 bytes from 178.248.237.68: icmp_seq=5 ttl=54 time=17.2 ms
+64 bytes from 178.248.237.68: icmp_seq=6 ttl=54 time=16.2 ms
+64 bytes from 178.248.237.68: icmp_seq=7 ttl=54 time=16.3 ms
+64 bytes from 178.248.237.68: icmp_seq=8 ttl=54 time=15.5 ms
+^C
+--- habr.com ping statistics ---
+8 packets transmitted, 8 received, 0% packet loss, time 7152ms
+rtt min/avg/max/mdev = 15.461/16.296/17.202/0.608 ms
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mping -t 150 -c 3 habr.com[27mping -t 150 -c 3 habr.com
+[?2004lPING habr.com (178.248.237.68) 56(84) bytes of data.
+64 bytes from 178.248.237.68: icmp_seq=1 ttl=54 time=16.3 ms
+64 bytes from 178.248.237.68: icmp_seq=2 ttl=54 time=16.2 ms
+64 bytes from 178.248.237.68: icmp_seq=3 ttl=54 time=15.0 ms
+
+--- habr.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2007ms
+rtt min/avg/max/mdev = 15.041/15.821/16.259/0.552 ms
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mping -c 3 -i 7 habr.com[27mping -c 3 -i 7 habr.com
+[?2004lPING habr.com (178.248.237.68) 56(84) bytes of data.
+64 bytes from 178.248.237.68: icmp_seq=1 ttl=54 time=15.5 ms
+64 bytes from 178.248.237.68: icmp_seq=2 ttl=54 time=15.3 ms
+64 bytes from 178.248.237.68: icmp_seq=3 ttl=54 time=16.5 ms
+
+--- habr.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 14029ms
+rtt min/avg/max/mdev = 15.340/15.751/16.451/0.497 ms
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo apt install net-tools -y[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo apt install net-tools -y
+[?2004l[sudo] password for adil: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following NEW packages will be installed:
+  net-tools
+0 upgraded, 1 newly installed, 0 to remove and 4 not upgraded.
+Need to get 204 kB of archives.
+After this operation, 811 kB of additional disk space will be used.
+[33m0% [Working][0m            Get:1 http://ru.archive.ubuntu.com/ubuntu noble-updates/main amd64 net-tools amd64 2.10-0.1ubuntu4.4 [204 kB]
+[33m0% [1 net-tools 892 B/204 kB 0%][0m[33m55% [1 net-tools 140 kB/204 kB 69%][0m[33m                                   100% [Working][0m              Fetched 204 kB in 1s (230 kB/s)
+
+7[0;29r8[1ASelecting previously unselected package net-tools.
+(Reading database… (Reading database… 5%(Reading database… 10%(Reading database… 15%(Reading database… 20%(Reading database… 25%(Reading database… 30%(Reading database… 35%(Reading database… 40%(Reading database… 45%(Reading database… 50%(Reading database… 55%(Reading database… 60%(Reading database… 65%(Reading database… 70%(Reading database… 75%(Reading database… 80%(Reading database… 85%(Reading database… 90%(Reading database… 95%(Reading database… 100%(Reading database… 254456 files and directories currently installed.)
+Preparing to unpack …/net-tools_2.10-0.1ubuntu4.4_amd64.deb…
+7[30;0f[42m[30mProgress: [  0%][49m[39m [..................................................................................] 87[30;0f[42m[30mProgress: [ 20%][49m[39m [################..................................................................] 8Unpacking net-tools (2.10-0.1ubuntu4.4)…
+7[30;0f[42m[30mProgress: [ 40%][49m[39m [################################..................................................] 8Setting up net-tools (2.10-0.1ubuntu4.4)…
+7[30;0f[42m[30mProgress: [ 60%][49m[39m [#################################################.................................] 87[30;0f[42m[30mProgress: [ 80%][49m[39m [#################################################################.................] 8Processing triggers for man-db (2.12.0-4build2)…
+
+7[0;30r8[1A[J[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mifconfig -a[27mifconfig -a
+[?2004lenp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fd17:625c:f037:2:c02d:cc2:7638:895a  prefixlen 64  scopeid 0x0<global>
+        inet6 fe80::7d04:2115:a4ee:387d  prefixlen 64  scopeid 0x20<link>
+        inet6 fd17:625c:f037:2:63fe:559a:92d9:d628  prefixlen 64  scopeid 0x0<global>
+        ether 08:00:27:08:0e:72  txqueuelen 1000  (Ethernet)
+        RX packets 8994  bytes 11915614 (11.9 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1744  bytes 140414 (140.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 111  bytes 11738 (11.7 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 111  bytes 11738 (11.7 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mifconfig enp0s3[27mifconfig enp0s3
+[?2004lenp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fd17:625c:f037:2:c02d:cc2:7638:895a  prefixlen 64  scopeid 0x0<global>
+        inet6 fe80::7d04:2115:a4ee:387d  prefixlen 64  scopeid 0x20<link>
+        inet6 fd17:625c:f037:2:63fe:559a:92d9:d628  prefixlen 64  scopeid 0x0<global>
+        ether 08:00:27:08:0e:72  txqueuelen 1000  (Ethernet)
+        RX packets 8994  bytes 11915614 (11.9 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1744  bytes 140414 (140.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mip a[27mip a
+[?2004l1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:08:0e:72 brd ff:ff:ff:ff:ff:ff
+    inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic noprefixroute enp0s3
+       valid_lft 85158sec preferred_lft 85158sec
+    inet6 fd17:625c:f037:2:c02d:cc2:7638:895a/64 scope global temporary dynamic 
+       valid_lft 86314sec preferred_lft 14314sec
+    inet6 fd17:625c:f037:2:63fe:559a:92d9:d628/64 scope global dynamic mngtmpaddr noprefixroute 
+       valid_lft 86314sec preferred_lft 14314sec
+    inet6 fe80::7d04:2115:a4ee:387d/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mip a show enp0s3[27mip a show enp0s3
+[?2004l2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:08:0e:72 brd ff:ff:ff:ff:ff:ff
+    inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic noprefixroute enp0s3
+       valid_lft 85134sec preferred_lft 85134sec
+    inet6 fd17:625c:f037:2:c02d:cc2:7638:895a/64 scope global temporary dynamic 
+       valid_lft 86290sec preferred_lft 14290sec
+    inet6 fd17:625c:f037:2:63fe:559a:92d9:d628/64 scope global dynamic mngtmpaddr noprefixroute 
+       valid_lft 86290sec preferred_lft 14290sec
+    inet6 fe80::7d04:2115:a4ee:387d/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-12 21:29:12+03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-11-12 21:35:00+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mip a[27mip a
+[?2004l1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:08:0e:72 brd ff:ff:ff:ff:ff:ff
+    inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic noprefixroute enp0s3
+       valid_lft 86328sec preferred_lft 86328sec
+    inet6 fd17:625c:f037:2:d76d:819b:3e62:f16c/64 scope global temporary dynamic 
+       valid_lft 86330sec preferred_lft 14330sec
+    inet6 fd17:625c:f037:2:63fe:559a:92d9:d628/64 scope global dynamic mngtmpaddr noprefixroute 
+       valid_lft 86330sec preferred_lft 14330sec
+    inet6 fe80::7d04:2115:a4ee:387d/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+3: enp0s8: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:4a:f8:36 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.56.101/24 brd 192.168.56.255 scope global dynamic noprefixroute enp0s8
+       valid_lft 528sec preferred_lft 528sec
+    inet6 fe80::6ef1:13b4:47eb:48fb/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [K]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mping -c 3 habr.com[27mping -c 3 habr.com
+[?2004lPING habr.com (178.248.237.68) 56(84) bytes of data.
+64 bytes from 178.248.237.68: icmp_seq=1 ttl=54 time=20.7 ms
+64 bytes from 178.248.237.68: icmp_seq=2 ttl=54 time=16.5 ms
+64 bytes from 178.248.237.68: icmp_seq=3 ttl=54 time=16.0 ms
+
+--- habr.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2007ms
+rtt min/avg/max/mdev = 16.016/17.755/20.729/2.112 ms
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mnmcli -f NAME,DEVICE con show[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnmcli -f NAME,DEVICE con show
+[?2004l[?1h=NAME                DEVICE [m
+[32mWired connection 1[0m  [32menp0s3[0m [m
+[32mWired connection 2[0m  [32menp0s8[0m [m
+[32;2mlo[0m                  [32;2mlo[0m     [m
+[K[?1l>[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo nmcli con mod "Wired connection 2" ipv4.method[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo nmcli con mod "Wired connection 2" ipv4.method
+[?2004l[sudo] password for adil: 
+Error: value for 'ipv4.method' is missing.
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mmanual ipv4.addresses 192.168.56.10/24[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmanual ipv4.addresses 192.168.56.10/24
+[?2004lmanual: command not found
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo nmcli con up "Wired connection 2"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo nmcli con up "Wired connection 2"
+[?2004lConnection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/4)
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mip a show enp0s8[27mip a show enp0s8
+[?2004l3: enp0s8: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:4a:f8:36 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.56.101/24 brd 192.168.56.255 scope global dynamic noprefixroute enp0s8
+       valid_lft 574sec preferred_lft 574sec
+    inet6 fe80::6ef1:13b4:47eb:48fb/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo apt install openssh-server -y[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo apt install openssh-server -y
+[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  ncurses-term openssh-sftp-server ssh-import-id
+Suggested packages:
+  molly-guard monkeysphere ssh-askpass
+The following NEW packages will be installed:
+  ncurses-term openssh-server openssh-sftp-server ssh-import-id
+0 upgraded, 4 newly installed, 0 to remove and 4 not upgraded.
+Need to get 834 kB of archives.
+After this operation, 6,751 kB of additional disk space will be used.
+[33m0% [Working][0m            Get:1 http://ru.archive.ubuntu.com/ubuntu noble-updates/main amd64 openssh-sftp-server amd64 1:9.6p1-3ubuntu13.20 [37.4 kB]
+[33m0% [1 openssh-sftp-server 2,114 B/37.4 kB 6%][0m[33m                                             9% [Working][0m            Get:2 http://ru.archive.ubuntu.com/ubuntu noble-updates/main amd64 openssh-server amd64 1:9.6p1-3ubuntu13.20 [512 kB]
+[33m9% [2 openssh-server 2,112 B/512 kB 0%][0m[33m18% [2 openssh-server 102 kB/512 kB 20%][0m[33m28% [2 openssh-server 201 kB/512 kB 39%][0m[33m38% [2 openssh-server 307 kB/512 kB 60%][0m[33m47% [2 openssh-server 402 kB/512 kB 79%][0m                                        Get:3 http://ru.archive.ubuntu.com/ubuntu noble-updates/main amd64 ncurses-term all 6.4+20240113-1ubuntu2.2 [275 kB]
+[33m                                        63% [3 ncurses-term 198 B/275 kB 0%][0m                                    Get:4 http://ru.archive.ubuntu.com/ubuntu noble-updates/main amd64 ssh-import-id all 5.11-0ubuntu2.24.04.1 [10.1 kB]
+[33m95% [4 ssh-import-id 9,220 B/10.1 kB 91%][0m[33m                                         100% [Working][0m              Fetched 834 kB in 3s (290 kB/s)
+Preconfiguring packages ...
+
+7[0;52r8[1ASelecting previously unselected package openssh-sftp-server.
+(Reading database… (Reading database… 5%(Reading database… 10%(Reading database… 15%(Reading database… 20%(Reading database… 25%(Reading database… 30%(Reading database… 35%(Reading database… 40%(Reading database… 45%(Reading database… 50%(Reading database… 55%(Reading database… 60%(Reading database… 65%(Reading database… 70%(Reading database… 75%(Reading database… 80%(Reading database… 85%(Reading database… 90%(Reading database… 95%(Reading database… 100%(Reading database… 254504 files and directories currently installed.)
+Preparing to unpack …/openssh-sftp-server_1%3a9.6p1-3ubuntu13.20_amd64.deb…
+7[53;0f[42m[30mProgress: [  0%][49m[39m [.........................................................................................................] 87[53;0f[42m[30mProgress: [  6%][49m[39m [######...................................................................................................] 8Unpacking openssh-sftp-server (1:9.6p1-3ubuntu13.20)…
+7[53;0f[42m[30mProgress: [ 12%][49m[39m [############.............................................................................................] 8Selecting previously unselected package openssh-server.
+Preparing to unpack …/openssh-server_1%3a9.6p1-3ubuntu13.20_amd64.deb…
+7[53;0f[42m[30mProgress: [ 18%][49m[39m [##################.......................................................................................] 8Unpacking openssh-server (1:9.6p1-3ubuntu13.20)…
+7[53;0f[42m[30mProgress: [ 24%][49m[39m [########################.................................................................................] 8Selecting previously unselected package ncurses-term.
+Preparing to unpack …/ncurses-term_6.4+20240113-1ubuntu2.2_all.deb…
+7[53;0f[42m[30mProgress: [ 29%][49m[39m [##############################...........................................................................] 8Unpacking ncurses-term (6.4+20240113-1ubuntu2.2)…
+7[53;0f[42m[30mProgress: [ 35%][49m[39m [#####################################....................................................................] 8Selecting previously unselected package ssh-import-id.
+Preparing to unpack …/ssh-import-id_5.11-0ubuntu2.24.04.1_all.deb…
+7[53;0f[42m[30mProgress: [ 41%][49m[39m [###########################################..............................................................] 8Unpacking ssh-import-id (5.11-0ubuntu2.24.04.1)…
+7[53;0f[42m[30mProgress: [ 47%][49m[39m [#################################################........................................................] 8Setting up openssh-sftp-server (1:9.6p1-3ubuntu13.20)…
+7[53;0f[42m[30mProgress: [ 53%][49m[39m [#######################################################..................................................] 87[53;0f[42m[30mProgress: [ 59%][49m[39m [#############################################################............................................] 8Setting up openssh-server (1:9.6p1-3ubuntu13.20)…
+7[53;0f[42m[30mProgress: [ 65%][49m[39m [###################################################################......................................] 8
+Creating config file /etc/ssh/sshd_config with new version
+Created symlink /etc/systemd/system/sockets.target.wants/ssh.socket → /usr/lib/systemd/system/ssh.socket.
+Created symlink /etc/systemd/system/ssh.service.requires/ssh.socket → /usr/lib/systemd/system/ssh.socket.
+7[53;0f[42m[30mProgress: [ 71%][49m[39m [##########################################################################...............................] 8Setting up ssh-import-id (5.11-0ubuntu2.24.04.1)…
+7[53;0f[42m[30mProgress: [ 76%][49m[39m [################################################################################.........................] 87[53;0f[42m[30mProgress: [ 82%][49m[39m [######################################################################################...................] 8Setting up ncurses-term (6.4+20240113-1ubuntu2.2)…
+7[53;0f[42m[30mProgress: [ 88%][49m[39m [############################################################################################.............] 87[53;0f[42m[30mProgress: [ 94%][49m[39m [##################################################################################################.......] 8Processing triggers for man-db (2.12.0-4build2)…
+Processing triggers for ufw (0.36.2-6)…
+
+7[0;53r8[1A[J[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo passwd[27msudo passwd
+[?2004lNew password: 
+Retype new password: 
+passwd: password updated successfully
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo nano /etc/ssh/sshd_config[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo nano /etc/ssh/sshd_config
+[?2004l[?2004h[?1049h[22;0;0t[1;53r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[51;57H(B[0;7m[ Reading... ](B[m[51;55H(B[0;7m[ Read 131 lines ](B[m[H(B[0;7m  GNU nano 7.2                                          /etc/ssh/sshd_config                                                   [1;126H(B[m[52d(B[0;7m^G(B[m Help[52;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[52;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[53d(B[0;7m^X(B[m Exit[53;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[3d[36m# This is the sshd server system-wide configuration file.  See[4d# sshd_config(5) for more information.[6d# This sshd was compiled with PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games[8d# The strategy used for options in the default sshd_config shipped with[9d# OpenSSH is to specify options with their default value where[10d# possible, but leave them commented.  Uncommented options override the[11d# default value.[13d[39m(B[mInclude /etc/ssh/sshd_config.d/*.conf[15d[36m# When systemd socket activation is used (the default), the socket[16d# configuration must be re-generated after changing Port, AddressFamily, or[17d# ListenAddress.[18d#[19d# For changes to take effect, run:[20d#[21d#   systemctl daemon-reload[22d#   systemctl restart ssh.socket[23d#[24d#Port 22[25d#AddressFamily any[26d#ListenAddress 0.0.0.0[27d#ListenAddress ::[29d#HostKey /etc/ssh/ssh_host_rsa_key[30d#HostKey /etc/ssh/ssh_host_ecdsa_key[31d#HostKey /etc/ssh/ssh_host_ed25519_key[33d# Ciphers and keying[34d#RekeyLimit default none[36d# Logging[37d#SyslogFacility AUTH[38d#LogLevel INFO[40d# Authentication:[42d#LoginGraceTime 2m[43d#PermitRootLogin prohibit-password[44d#StrictModes yes[45d#MaxAuthTries 6[46d#MaxSessions 10[48d#PubkeyAuthentication yes[50d# Expect .ssh/authorized_keys2 to be disregarded by default in future.[2d[39m(B[m[?12l[?25h[?25l[51d[J[53d[?12l[?25h[53;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo nano /etc/ssh/sshd_config[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo nano /etc/ssh/sshd_config
+[?2004l[?2004h[?1049h[22;0;0t[1;53r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[51;57H(B[0;7m[ Reading... ](B[m[51;55H(B[0;7m[ Read 131 lines ](B[m[H(B[0;7m  GNU nano 7.2                                          /etc/ssh/sshd_config                                                   [1;126H(B[m[52d(B[0;7m^G(B[m Help[52;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[52;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[53d(B[0;7m^X(B[m Exit[53;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[3d[36m# This is the sshd server system-wide configuration file.  See[4d# sshd_config(5) for more information.[6d# This sshd was compiled with PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games[8d# The strategy used for options in the default sshd_config shipped with[9d# OpenSSH is to specify options with their default value where[10d# possible, but leave them commented.  Uncommented options override the[11d# default value.[13d[39m(B[mInclude /etc/ssh/sshd_config.d/*.conf[15d[36m# When systemd socket activation is used (the default), the socket[16d# configuration must be re-generated after changing Port, AddressFamily, or[17d# ListenAddress.[18d#[19d# For changes to take effect, run:[20d#[21d#   systemctl daemon-reload[22d#   systemctl restart ssh.socket[23d#[24d#Port 22[25d#AddressFamily any[26d#ListenAddress 0.0.0.0[27d#ListenAddress ::[29d#HostKey /etc/ssh/ssh_host_rsa_key[30d#HostKey /etc/ssh/ssh_host_ecdsa_key[31d#HostKey /etc/ssh/ssh_host_ed25519_key[33d# Ciphers and keying[34d#RekeyLimit default none[36d# Logging[37d#SyslogFacility AUTH[38d#LogLevel INFO[40d# Authentication:[42d#LoginGraceTime 2m[43d#PermitRootLogin prohibit-password[44d#StrictModes yes[45d#MaxAuthTries 6[46d#MaxSessions 10[48d#PubkeyAuthentication yes[50d# Expect .ssh/authorized_keys2 to be disregarded by default in future.[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[8d[?25l[?12l[?25h[14d[?25l[?12l[?25h[20d[?25l[51d[K[?12l[?25h[26d[?25l[?12l[?25h[32d[?25l[?12l[?25h[38d[?25l[?12l[?25h[32d[?25l[?12l[?25h[26d[?25l[?12l[?25h[20d[?25l[?12l[?25h[14d[?25l[?12l[?25h[8d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[20d[?25l[?12l[?25h[26d[?25l[?12l[?25h[32d[?25l[?12l[?25h[26d[?25l[?12l[?25h[20d[?25l[?12l[?25h[14d[?25l[?12l[?25h[16d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[?12l[?25h[26d[?25l[?12l[?25h[32d[?25l[?12l[?25h[38d[?25l[?12l[?25h[44d[?25l[?12l[?25h[50d[?25l[?12l[?25h[44d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[38d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[32d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[26d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[20d[?25l[?12l[?25h[14d[?25l[?12l[?25h[8d[?25l[?12l[?25h[2d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h[28d[?25l[?12l[?25h[29d[?25l[?12l[?25h[30d[?25l[?12l[?25h[31d[?25l[?12l[?25h[32d[?25l[?12l[?25h[33d[?25l[?12l[?25h[34d[?25l[?12l[?25h[35d[?25l[?12l[?25h[36d[?25l[?12l[?25h[37d[?25l[?12l[?25h[38d[?25l[?12l[?25h[39d[?25l[?12l[?25h[40d[?25l[?12l[?25h[41d[?25l[?12l[?25h[42d[?25l[?12l[?25h[43d[?25l[?12l[?25h[44d[?25l[?12l[?25h[A[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[1;78H(B[0;7m*[126G(B[m[?12l[?25h[43;34H [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[36my[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[36m [39m(B[m[?25l[?12l[?25h[36my[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[52;16H[16X[52;32H(B[0;7mM-D(B[m DOS Format      [52;61H  (B[0;7mM-A(B[m Append[21X[52;94H(B[0;7mM-B(B[m Backup File[K[53;2H(B[0;7mC(B[m Cancel[16G[16X[53;32H(B[0;7mM-M(B[m Mac Format        [61G  (B[0;7mM-P(B[m Prepend[20X[53;94H(B[0;7m^T(B[m Browse[K[51d(B[0;7mFile Name to Write: /etc/ssh/sshd_config                                                                                       [51;41H(B[m[?12l[?25h[?25l[51;56H[1K (B[0;7m[ Writing... ](B[m[K[1;78H(B[0;7m [126G(B[m[51;55H(B[0;7m[ Wrote 131 lines ](B[m[52;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[52;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo       (B[0;7mM-A(B[m Set Mark[53;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo       (B[0;7mM-6(B[m Copy[?12l[?25h[43;21H[?25l[51d[J[53d[?12l[?25h[53;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo nmcli con mod "Wired connection 2" ipv4.method[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo nmcli con mod "Wired connection 2" ipv4.method
+[?2004lError: value for 'ipv4.method' is missing.
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mmanual ipv4.addresses 192.168.56.10/24[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmanual ipv4.addresses 192.168.56.10/24
+[?2004lmanual: command not found
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo nmcli con up "Wired connection 2"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo nmcli con up "Wired connection 2"
+[?2004lConnection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/5)
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mip a show enp0s8[27mip a show enp0s8
+[?2004l3: enp0s8: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:4a:f8:36 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.56.101/24 brd 192.168.56.255 scope global dynamic noprefixroute enp0s8
+       valid_lft 592sec preferred_lft 592sec
+    inet6 fe80::6ef1:13b4:47eb:48fb/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo passwd[27msudo passwd
+[?2004lNew password: 
+Retype new password: 
+passwd: password updated successfully
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo systemctl restart ssh[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo systemctl restart ssh
+[?2004l[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msystemctl status ssh[27msystemctl status ssh
+[?2004l[?1h=[0;1;32m●[0m ssh.service - OpenBSD Secure Shell server[m
+     Loaded: loaded (]8;;file://adil-VirtualBox/usr/lib/systemd/system/ssh.service/usr/lib/systemd/system/ssh.service]8;;; [0;1;38;5;185mdisabled[0m; preset: [0;1;32menabled[0m)[m
+     Active: [0;1;32mactive (running)[0m since Thu 2026-11-12 21:44:44 MSK; 10s ago[m
+TriggeredBy: [0;1;32m●[0m ssh.socket[m
+       Docs: ]8;;man:sshd(8)man:sshd(8)]8;;[m
+             ]8;;man:sshd_config(5)man:sshd_config(5)]8;;[m
+    Process: 4273 ExecStartPre=/usr/sbin/sshd -t (code=exited, status=0/SUCCESS)[m
+   Main PID: 4275 (sshd)[m
+      Tasks: 1 (limit: 3453)[m
+     Memory: 1.2M (peak: 1.5M)[m
+        CPU: 35ms[m
+     CGroup: /system.slice/ssh.service[m
+             └─[0;38;5;245m4275 "sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups"[0m[m
+[m
+Nov 12 21:44:44 adil-VirtualBox systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...[m
+Nov 12 21:44:44 adil-VirtualBox sshd[4275]: Server listening on 0.0.0.0 port 22.[m
+Nov 12 21:44:44 adil-VirtualBox systemd[1]: Started ssh.service - OpenBSD Secure Shell server.[m
+Nov 12 21:44:44 adil-VirtualBox sshd[4275]: Server listening on :: port 22.[m
+[K[?1l>[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo nano /etc/ssh/sshd_config[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo nano /etc/ssh/sshd_config
+[?2004l[?2004h[?1049h[22;0;0t[1;53r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[51;57H(B[0;7m[ Reading... ](B[m[51;55H(B[0;7m[ Read 131 lines ](B[m[H(B[0;7m  GNU nano 7.2                                          /etc/ssh/sshd_config                                                   [1;126H(B[m[52d(B[0;7m^G(B[m Help[52;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[52;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[53d(B[0;7m^X(B[m Exit[53;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[3d[36m# This is the sshd server system-wide configuration file.  See[4d# sshd_config(5) for more information.[6d# This sshd was compiled with PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games[8d# The strategy used for options in the default sshd_config shipped with[9d# OpenSSH is to specify options with their default value where[10d# possible, but leave them commented.  Uncommented options override the[11d# default value.[13d[39m(B[mInclude /etc/ssh/sshd_config.d/*.conf[15d[36m# When systemd socket activation is used (the default), the socket[16d# configuration must be re-generated after changing Port, AddressFamily, or[17d# ListenAddress.[18d#[19d# For changes to take effect, run:[20d#[21d#   systemctl daemon-reload[22d#   systemctl restart ssh.socket[23d#[24d#Port 22[25d#AddressFamily any[26d#ListenAddress 0.0.0.0[27d#ListenAddress ::[29d#HostKey /etc/ssh/ssh_host_rsa_key[30d#HostKey /etc/ssh/ssh_host_ecdsa_key[31d#HostKey /etc/ssh/ssh_host_ed25519_key[33d# Ciphers and keying[34d#RekeyLimit default none[36d# Logging[37d#SyslogFacility AUTH[38d#LogLevel INFO[40d# Authentication:[42d#LoginGraceTime 2m[43d#PermitRootLogin yes[44d#StrictModes yes[45d#MaxAuthTries 6[46d#MaxSessions 10[48d#PubkeyAuthentication yes[50d# Expect .ssh/authorized_keys2 to be disregarded by default in future.[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[51d[K[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h[28d[?25l[?12l[?25h[29d[?25l[?12l[?25h[30d[?25l[?12l[?25h[31d[?25l[?12l[?25h[32d[?25l[?12l[?25h[33d[?25l[?12l[?25h[34d[?25l[?12l[?25h[35d[?25l[?12l[?25h[36d[?25l[?12l[?25h[37d[?25l[?12l[?25h[38d[?25l[?12l[?25h[39d[?25l[?12l[?25h[40d[?25l[?12l[?25h[41d[?25l[?12l[?25h[42d[?25l[?12l[?25h[43d[?25l[?12l[?25h[C[?25l[1;78H(B[0;7m*[126G(B[m[?12l[?25h[43dPermitRootLogin yes[K[?25l[52;16H[16X[52;32H(B[0;7mM-D(B[m DOS Format      [52;61H  (B[0;7mM-A(B[m Append[21X[52;94H(B[0;7mM-B(B[m Backup File[K[53;2H(B[0;7mC(B[m Cancel[16G[16X[53;32H(B[0;7mM-M(B[m Mac Format        [61G  (B[0;7mM-P(B[m Prepend[20X[53;94H(B[0;7m^T(B[m Browse[K[51d(B[0;7mFile Name to Write: /etc/ssh/sshd_config                                                                                       [51;41H(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[51;56H[1K (B[0;7m[ Writing... ](B[m[K[1;78H(B[0;7m [126G(B[m[51;55H(B[0;7m[ Wrote 131 lines ](B[m[52;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[52;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo       (B[0;7mM-A(B[m Set Mark[53;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo       (B[0;7mM-6(B[m Copy[?12l[?25h[43d[?25l[51d[J[53d[?12l[?25h[53;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo grep -n PermitRootLogin /etc/ssh/sshd_config[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo grep -n PermitRootLogin /etc/ssh/sshd_config
+[?2004l42:PermitRootLogin yes
+90:# the setting of "PermitRootLogin prohibit-password".
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo systemctl restart ssh[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo systemctl restart ssh
+[?2004l[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo nmcli con mod "Wired connection 2" ipv4.method manual[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo nmcli con mod "Wired connection 2" ipv4.method manual
+[?2004lError: Failed to modify connection 'Wired connection 2': ipv4.method: method 'manual' requires at least an address or a route
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo nmcli con mod "Wired connection 2" ipv4.addresses 192.168.56.10/24[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo nmcli con mod "Wired connection 2" ipv4.addresses 192.168.56.10/24
+[?2004l[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo nmcli con up "Wired connection 2"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo nmcli con up "Wired connection 2"
+[?2004lConnection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/6)
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mip a show enp0s8[27mip a show enp0s8
+[?2004l3: enp0s8: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:4a:f8:36 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.56.10/24 brd 192.168.56.255 scope global noprefixroute enp0s8
+       valid_lft forever preferred_lft forever
+    inet 192.168.56.101/24 brd 192.168.56.255 scope global secondary dynamic noprefixroute enp0s8
+       valid_lft 593sec preferred_lft 593sec
+    inet6 fe80::6ef1:13b4:47eb:48fb/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo systemctl enable ssh[27msudo systemctl enable ssh
+[?2004lSynchronizing state of ssh.service with SysV service script with /usr/lib/systemd/systemd-sysv-install.
+Executing: /usr/lib/systemd/systemd-sysv-install enable ssh
+Created symlink /etc/systemd/system/sshd.service → /usr/lib/systemd/system/ssh.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ssh.service → /usr/lib/systemd/system/ssh.service.
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo nmcli con mod "Wired connection 2" ipv4.method manual[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo nmcli con mod "Wired connection 2" ipv4.method manual
+[?2004l[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo nmcli con up "Wired connection 2"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo nmcli con up "Wired connection 2"
+[?2004lConnection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/7)
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mip a show enp0s8[27mip a show enp0s8
+[?2004l3: enp0s8: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:4a:f8:36 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.56.10/24 brd 192.168.56.255 scope global noprefixroute enp0s8
+       valid_lft forever preferred_lft forever
+    inet6 fe80::6ef1:13b4:47eb:48fb/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo apt update[27msudo apt update
+[?2004l[sudo] password for adil: 
+[33m0% [Working][0m            Hit:1 http://ru.archive.ubuntu.com/ubuntu noble InRelease
+[33m0% [Waiting for headers] [Waiting for headers][0m                                              Get:2 http://ru.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+                                              Get:3 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+[33m0% [2 InRelease 4,552 B/126 kB 4%] [3 InRelease 17.2 kB/126 kB 14%][0m[33m                                                                   0% [2 InRelease 31.4 kB/126 kB 25%][0m[33m0% [2 InRelease 59.5 kB/126 kB 47%][0m[33m0% [2 InRelease 93.6 kB/126 kB 74%][0m                                   Get:4 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1,194 kB]
+[33m0% [2 InRelease 102 kB/126 kB 81%] [4 Packages 0 B/1,194 kB 0%][0m[33m                                                               0% [Waiting for headers] [4 Packages 712 kB/1,194 kB 60%][0m                                                         Get:5 http://ru.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+[33m0% [5 InRelease 5,772 B/126 kB 5%] [4 Packages 712 kB/1,194 kB 60%][0m[33m0% [5 InRelease 26.5 kB/126 kB 21%] [4 Packages 1,099 kB/1,194 kB 92%][0m[33m                                                                      0% [5 InRelease 44.8 kB/126 kB 36%][0m[33m0% [4 Packages store 0 B] [5 InRelease 44.8 kB/126 kB 36%][0m                                                          Get:6 http://security.ubuntu.com/ubuntu noble-security/main Translation-en [238 kB]
+[33m0% [4 Packages store 0 B] [5 InRelease 52.1 kB/126 kB 41%] [6 Translation-en 0 B/238 kB 0%][0m[33m                                                                                           0% [4 Packages store 0 B] [5 InRelease 69.2 kB/126 kB 55%][0m                                                          Get:7 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [46.4 kB]
+[33m0% [4 Packages store 0 B] [5 InRelease 69.2 kB/126 kB 55%] [7 Components-amd64 0 B/46.4 kB 0%][0m[33m                                                                                              0% [5 InRelease 72.9 kB/126 kB 58%] [7 Components-amd64 46.4 kB/46.4 kB 100%][0m[33m0% [6 Translation-en store 0 B] [5 InRelease 72.9 kB/126 kB 58%] [7 Components-amd64 46.4 kB/46.4 kB 100%][0m[33m                                                                                                          0% [6 Translation-en store 0 B] [5 InRelease 77.8 kB/126 kB 62%][0m                                                                Get:8 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [1,788 kB]
+[33m0% [6 Translation-en store 0 B] [5 InRelease 82.6 kB/126 kB 65%] [8 Packages 65.3 kB/1,788 kB 4%][0m[33m                                                                                                 0% [5 InRelease 93.6 kB/126 kB 74%] [8 Packages 239 kB/1,788 kB 13%][0m[33m0% [7 Components-amd64 store 0 B] [5 InRelease 93.6 kB/126 kB 74%] [8 Packages 239 kB/1,788 kB 13%][0m[33m                                                                                                   0% [5 InRelease 99.7 kB/126 kB 79%] [8 Packages 242 kB/1,788 kB 14%][0m[33m                                                                    0% [8 Packages 680 kB/1,788 kB 38%][0m                                   Get:9 http://ru.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1,450 kB]
+[33m0% [9 Packages 10.7 kB/1,450 kB 1%] [8 Packages 753 kB/1,788 kB 42%][0m[33m41% [9 Packages 166 kB/1,450 kB 11%] [8 Packages 1,483 kB/1,788 kB 83%][0m                                                                       Get:10 http://security.ubuntu.com/ubuntu noble-security/restricted Translation-en [411 kB]
+[33m44% [9 Packages 284 kB/1,450 kB 20%] [10 Translation-en 16.0 kB/411 kB 4%][0m[33m44% [8 Packages store 0 B] [9 Packages 284 kB/1,450 kB 20%] [10 Translation-en 16.0 kB/411 kB 4%][0m[33m                                                                                                 47% [8 Packages store 0 B] [9 Packages 368 kB/1,450 kB 25%] [Waiting for headers][0m                                                                                 Get:11 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1,228 kB]
+[33m47% [8 Packages store 0 B] [9 Packages 368 kB/1,450 kB 25%] [11 Packages 0 B/1,228 kB 0%][0m[33m                                                                                         57% [8 Packages store 0 B] [9 Packages 732 kB/1,450 kB 50%][0m                                                           Get:12 http://security.ubuntu.com/ubuntu noble-security/universe Translation-en [248 kB]
+[33m58% [8 Packages store 0 B] [9 Packages 732 kB/1,450 kB 50%] [12 Translation-en 45.1 kB/248 kB 18%][0m[33m                                                                                                  60% [8 Packages store 0 B] [9 Packages 852 kB/1,450 kB 59%] [Waiting for headers][0m                                                                                 Get:13 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [76.3 kB]
+[33m60% [8 Packages store 0 B] [9 Packages 852 kB/1,450 kB 59%] [13 Components-amd64 52.6 kB/76.3 kB 69%][0m[33m                                                                                                     60% [8 Packages store 0 B] [9 Packages 852 kB/1,450 kB 59%][0m[33m                                                           61% [9 Packages 937 kB/1,450 kB 65%][0m[33m61% [10 Translation-en store 0 B] [9 Packages 937 kB/1,450 kB 65%][0m[33m                                                                  63% [9 Packages 1,309 kB/1,450 kB 90%][0m[33m63% [11 Packages store 0 B] [9 Packages 1,309 kB/1,450 kB 90%][0m[33m                                                              64% [11 Packages store 0 B][0m                           Get:14 http://ru.archive.ubuntu.com/ubuntu noble-updates/main Translation-en [315 kB]
+[33m64% [11 Packages store 0 B] [14 Translation-en 0 B/315 kB 0%][0m[33m                                                             66% [11 Packages store 0 B][0m                           Get:15 http://ru.archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [181 kB]
+[33m66% [11 Packages store 0 B] [15 Components-amd64 0 B/181 kB 0%][0m[33m                                                               67% [11 Packages store 0 B][0m                           Get:16 http://ru.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [1,883 kB]
+[33m67% [11 Packages store 0 B] [16 Packages 334 B/1,883 kB 0%][0m[33m                                                           69% [16 Packages 258 kB/1,883 kB 14%][0m[33m70% [12 Translation-en store 0 B] [16 Packages 323 kB/1,883 kB 17%][0m[33m                                                                   71% [16 Packages 463 kB/1,883 kB 25%][0m[33m71% [13 Components-amd64 store 0 B] [16 Packages 463 kB/1,883 kB 25%][0m[33m                                                                     71% [16 Packages 547 kB/1,883 kB 29%][0m[33m71% [9 Packages store 0 B] [16 Packages 547 kB/1,883 kB 29%][0m[33m                                                            77% [16 Packages 1,372 kB/1,883 kB 73%][0m[33m77% [16 Packages 1,374 kB/1,883 kB 73%][0m[33m77% [15 Components-amd64 store 0 B] [16 Packages 1,374 kB/1,883 kB 73%][0m[33m                                                                       77% [16 Packages 1,374 kB/1,883 kB 73%][0m[33m                                       80% [Working][0m             Get:17 http://ru.archive.ubuntu.com/ubuntu noble-updates/restricted Translation-en [430 kB]
+[33m80% [17 Translation-en 3,192 B/430 kB 1%][0m[33m80% [16 Packages store 0 B] [17 Translation-en 3,192 B/430 kB 1%][0m[33m                                                                 82% [17 Translation-en 178 kB/430 kB 41%][0m[33m                                         83% [Working][0m[33m83% [17 Translation-en store 0 B][0m                                 Get:18 http://ru.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1,711 kB]
+[33m84% [18 Packages 74.8 kB/1,711 kB 4%][0m[33m                                     94% [Working][0m[33m94% [18 Packages store 0 B][0m                           Get:19 http://ru.archive.ubuntu.com/ubuntu noble-updates/universe Translation-en [344 kB]
+[33m94% [18 Packages store 0 B] [19 Translation-en 0 B/344 kB 0%][0m[33m                                                             97% [18 Packages store 0 B] [Waiting for headers][0m                                                 Get:20 http://ru.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [388 kB]
+[33m97% [18 Packages store 0 B] [20 Components-amd64 21.5 kB/388 kB 6%][0m[33m                                                                   99% [18 Packages store 0 B][0m                           Get:21 http://ru.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
+[33m99% [18 Packages store 0 B] [21 Components-amd64 0 B/940 B 0%][0m[33m                                                              99% [18 Packages store 0 B][0m                           Get:22 http://ru.archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [5,744 B]
+[33m99% [18 Packages store 0 B] [22 Components-amd64 0 B/5,744 B 0%][0m                                                                Get:23 http://ru.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [12.6 kB]
+[33m99% [18 Packages store 0 B] [23 Components-amd64 11.9 kB/12.6 kB 94%][0m[33m                                                                     99% [18 Packages store 0 B][0m[33m                           99% [Working][0m[33m99% [19 Translation-en store 0 B][0m[33m                                 100% [Working][0m[33m100% [20 Components-amd64 store 0 B][0m[33m                                    100% [Working][0m[33m100% [21 Components-amd64 store 0 B][0m[33m                                    100% [Working][0m[33m100% [22 Components-amd64 store 0 B][0m[33m                                    100% [Working][0m[33m100% [23 Components-amd64 store 0 B][0m[33m                                    100% [Working][0m              Fetched 12.3 MB in 4s (2,952 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 4%Reading package lists... 4%Reading package lists... 5%Reading package lists... 5%Reading package lists... 5%Reading package lists... 5%Reading package lists... 37%Reading package lists... 40%Reading package lists... 40%Reading package lists... 56%Reading package lists... 56%Reading package lists... 56%Reading package lists... 56%Reading package lists... 57%Reading package lists... 57%Reading package lists... 60%Reading package lists... 60%Reading package lists... 63%Reading package lists... 63%Reading package lists... 68%Reading package lists... 68%Reading package lists... 72%Reading package lists... 72%Reading package lists... 77%Reading package lists... 77%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 82%Reading package lists... 82%Reading package lists... 84%Reading package lists... 84%Reading package lists... 89%Reading package lists... 89%Reading package lists... 93%Reading package lists... 93%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+7 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo apt install nginx -y[27msudo apt install nginx -y
+[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  nginx-common
+Suggested packages:
+  fcgiwrap nginx-doc
+The following NEW packages will be installed:
+  nginx nginx-common
+0 upgraded, 2 newly installed, 0 to remove and 7 not upgraded.
+Need to get 570 kB of archives.
+After this operation, 1,602 kB of additional disk space will be used.
+[33m0% [Working][0m            Get:1 http://ru.archive.ubuntu.com/ubuntu noble-updates/main amd64 nginx-common all 1.24.0-2ubuntu7.19 [45.3 kB]
+[33m0% [1 nginx-common 0 B/45.3 kB 0%][0m[33m                                  16% [Working][0m             Get:2 http://ru.archive.ubuntu.com/ubuntu noble-updates/main amd64 nginx amd64 1.24.0-2ubuntu7.19 [525 kB]
+[33m16% [2 nginx 0 B/525 kB 0%][0m[33m                           100% [Working][0m              Fetched 570 kB in 0s (1,763 kB/s)
+Preconfiguring packages ...
+
+7[0;52r8[1ASelecting previously unselected package nginx-common.
+(Reading database… (Reading database… 5%(Reading database… 10%(Reading database… 15%(Reading database… 20%(Reading database… 25%(Reading database… 30%(Reading database… 35%(Reading database… 40%(Reading database… 45%(Reading database… 50%(Reading database… 55%(Reading database… 60%(Reading database… 65%(Reading database… 70%(Reading database… 75%(Reading database… 80%(Reading database… 85%(Reading database… 90%(Reading database… 95%(Reading database… 100%(Reading database… 257408 files and directories currently installed.)
+Preparing to unpack …/nginx-common_1.24.0-2ubuntu7.19_all.deb…
+7[53;0f[42m[30mProgress: [  0%][49m[39m [.........................................................................................................] 87[53;0f[42m[30mProgress: [ 11%][49m[39m [###########..............................................................................................] 8Unpacking nginx-common (1.24.0-2ubuntu7.19)…
+7[53;0f[42m[30mProgress: [ 22%][49m[39m [#######################..................................................................................] 8Selecting previously unselected package nginx.
+Preparing to unpack …/nginx_1.24.0-2ubuntu7.19_amd64.deb…
+7[53;0f[42m[30mProgress: [ 33%][49m[39m [##################################.......................................................................] 8Unpacking nginx (1.24.0-2ubuntu7.19)…
+7[53;0f[42m[30mProgress: [ 44%][49m[39m [##############################################...........................................................] 8Setting up nginx-common (1.24.0-2ubuntu7.19)…
+7[53;0f[42m[30mProgress: [ 56%][49m[39m [##########################################################...............................................] 8Created symlink /etc/systemd/system/multi-user.target.wants/nginx.service → /usr/lib/systemd/system/nginx.service.
+7[53;0f[42m[30mProgress: [ 67%][49m[39m [#####################################################################....................................] 8Setting up nginx (1.24.0-2ubuntu7.19)…
+7[53;0f[42m[30mProgress: [ 78%][49m[39m [#################################################################################........................] 8 * Upgrading binary nginx       [127G [121G[ OK ]
+7[53;0f[42m[30mProgress: [ 89%][49m[39m [#############################################################################################............] 8Processing triggers for man-db (2.12.0-4build2)…
+Processing triggers for ufw (0.36.2-6)…
+
+7[0;53r8[1A[J[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo nginx -t[27msudo nginx -t
+[?2004lnginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mps -ax | grep nginx[27mps -ax | grep nginx
+[?2004l   6087 ?        S      0:00 [01;31m[Knginx[m[K: master process /usr/sbin/[01;31m[Knginx[m[K -g daemon on; master_process on;
+   6089 ?        S      0:00 [01;31m[Knginx[m[K: worker process
+   6090 ?        S      0:00 [01;31m[Knginx[m[K: worker process
+   6171 pts/1    S+     0:00 grep --color=auto [01;31m[Knginx[m[K
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mlocate nginx.conf[27mlocate nginx.conf
+[?2004lCommand 'locate' not found, but can be installed with:
+sudo apt install plocate
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mscp C:\path\to\l6.py root@192.168.56.10:/root/[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscp C:\path\to\l6.py root@192.168.56.10:/root/
+[?2004lThe authenticity of host '192.168.56.10 (192.168.56.10)' can't be established.
+ED25519 key fingerprint is SHA256:UmXVeLVvkLmQS90QW6tHXp2kRF3Orn7z7C/aVmEEKcM.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '192.168.56.10' (ED25519) to the list of known hosts.
+root@192.168.56.10's password: 
+Permission denied, please try again.
+root@192.168.56.10's password: 
+Permission denied, please try again.
+root@192.168.56.10's password: 
+ssh: Could not resolve hostname c: Temporary failure in name resolution
+scp: Connection closed
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mscp C:\path\to\l6.py root@192.168.56.10:/root/[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscp C:\path\to\l6.py root@192.168.56.10:/root/
+[?2004lroot@192.168.56.10's password: 
+Permission denied, please try again.
+root@192.168.56.10's password: 
+ssh: Could not resolve hostname c: Temporary failure in name resolution
+scp: Connection closed
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mcat > ~/l6.py << 'EOF'[27m
+[7mimport random[27m
+
+[7mheaders = ['Товарищи!', 'Друзья!', 'Коллеги!', 'Однопартийцы!', 'Господа!', 'Участники заседания!'][27m
+
+[7mfir_parts = ['Несмотря на замедление падения ремиссионного депрессирования,',[27m
+[7m             'Особенно хотелось отметить то, что',[27m
+[7m             'Подводя итоги, необходимо сказать о том, что',[27m
+[7m             'Не вызывает сомнений факт, что',[27m
+[7m             'Не может пройти незамеченным то обстоятельство, что',[27m
+[7m             'В настоящее время главным образом стоит обратить внимание на то, что',[27m
+[7m             'Хотя кадастровая модель важна, не следует забывать о том, что'][27m
+
+[7msec_parts = ['субсидирование ассигнационной части бюджетной составляющей',[27m
+[7m             'рекуперация ротационных секвестров',[27m
+[7m             'регламентация государственных реестров',[27m
+[7m             'валоризация базового компонента и варьируемого сегмента',[27m
+[7m             'ликвидация профицита недодефицитирования',[27m
+[7m             'уверенное прогрессирование в любом звене указанного диапазона',[27m
+[7m             'дефлятирование текущих тарифов'][27m
+
+[7mthi_parts = ['позволяет уверенно говорить о новой вехе стабилизации',[27m
+[7m             'обнаруживает тенденцию к устойчивому росту',[27m
+[7m             'служит толчком для нового витка подъема, который был сформирован',[27m
+[7m             'является квотой и заделом для повышения общего уровня',[27m
+[7m             'имеет место быть в каждой сфере деятельности',[27m
+[7m             'демонстрирует определенный экспоненциальный рывок',[27m
+[7m             'будет иметь успех только в том случае, когда прирост издержек расходов покажет свою лабильность'][27m
+
+[7mfor_parts = ['за истекший период.',[27m
+[7m             'на данном этапе развития.',[27m
+[7m             'как де-юре, так и де-факто.',[27m
+[7m             'на стадии пилотной сегрегации',[27m
+[7m             'после прохождения отчётной фазы',[27m
+[7m             'по окончании достагнационного промежутка времени.',[27m
+[7m             'во всех своих проявлениях'][27m
+
+[7mheader = random.choice(headers)[27m
+[7mfir_part = random.choice(fir_parts)[27m
+[7msec_part = random.choice(sec_parts)[27m
+[7mthi_part = random.choice(thi_parts)[27m
+[7mfor_part = random.choice(for_parts)[27m
+
+[7msequense = f'{header} {fir_part} {sec_part}\n {thi_part} {for_part}'[27m
+
+[7mwith open('index.html', 'w', encoding='utf-8') as index_file:[27m
+[7m    index_file.write(f'<html>\n\t<head><meta charset=utf-8><title>Вариант {random.randint(1,36)}'[27m
+[7m                     f'</title></head>\n\t<body>{sequense}</body></html>')[27m
+[7mEOF[27m
+[7mpython3 ~/l6.py[27m
+[7mcat ~/index.html[27m[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ cat > ~/l6.py << 'EOF'
+import random
+
+headers = ['Товарищи!', 'Друзья!', 'Коллеги!', 'Однопартийцы!', 'Господа!', 'Участники заседания!']
+
+fir_parts = ['Несмотря на замедление падения ремиссионного депрессирования,',
+             'Особенно хотелось отметить то, что',
+             'Подводя итоги, необходимо сказать о том, что',
+             'Не вызывает сомнений факт, что',
+             'Не может пройти незамеченным то обстоятельство, что',
+             'В настоящее время главным образом стоит обратить внимание на то, что',
+             'Хотя кадастровая модель важна, не следует забывать о том, что']
+
+sec_parts = ['субсидирование ассигнационной части бюджетной составляющей',
+             'рекуперация ротационных секвестров',
+             'регламентация государственных реестров',
+             'валоризация базового компонента и варьируемого сегмента',
+             'ликвидация профицита недодефицитирования',
+             'уверенное прогрессирование в любом звене указанного диапазона',
+             'дефлятирование текущих тарифов']
+
+thi_parts = ['позволяет уверенно говорить о новой вехе стабилизации',
+             'обнаруживает тенденцию к устойчивому росту',
+             'служит толчком для нового витка подъема, который был сформирован',
+             'является квотой и заделом для повышения общего уровня',
+             'имеет место быть в каждой сфере деятельности',
+             'демонстрирует определенный экспоненциальный рывок',
+             'будет иметь успех только в том случае, когда прирост издержек расходов покажет свою лабильность']
+
+for_parts = ['за истекший период.',
+             'на данном этапе развития.',
+             'как де-юре, так и де-факто.',
+             'на стадии пилотной сегрегации',
+             'после прохождения отчётной фазы',
+             'по окончании достагнационного промежутка времени.',
+             'во всех своих проявлениях']
+
+header = random.choice(headers)
+fir_part = random.choice(fir_parts)
+sec_part = random.choice(sec_parts)
+thi_part = random.choice(thi_parts)
+for_part = random.choice(for_parts)
+
+sequense = f'{header} {fir_part} {sec_part}\n {thi_part} {for_part}'
+
+with open('index.html', 'w', encoding='utf-8') as index_file:
+    index_file.write(f'<html>\n\t<head><meta charset=utf-8><title>Вариант {random.randint(1,36)}'
+                     f'</title></head>\n\t<body>{sequense}</body></html>')
+EOF
+python3 ~/l6.py
+cat ~/index.html
+[?2004l<html>
+	<head><meta charset=utf-8><title>Вариант 17</title></head>
+	<body>Господа! Хотя кадастровая модель важна, не следует забывать о том, что дефлятирование текущих тарифов
+ является квотой и заделом для повышения общего уровня как де-юре, так и де-факто.</body></html>[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo apt install plocate -y[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo apt install plocate -y
+[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  liburing2
+The following NEW packages will be installed:
+  liburing2 plocate
+0 upgraded, 2 newly installed, 0 to remove and 7 not upgraded.
+Need to get 160 kB of archives.
+After this operation, 623 kB of additional disk space will be used.
+[33m0% [Working][0m            Get:1 http://ru.archive.ubuntu.com/ubuntu noble/main amd64 liburing2 amd64 2.5-1build1 [21.1 kB]
+[33m0% [1 liburing2 0 B/21.1 kB 0%][0m[33m                               21% [Working][0m             Get:2 http://ru.archive.ubuntu.com/ubuntu noble/universe amd64 plocate amd64 1.1.19-2ubuntu2 [139 kB]
+[33m22% [2 plocate 2,112 B/139 kB 2%][0m[33m59% [2 plocate 77.8 kB/139 kB 56%][0m[33m                                  100% [Working][0m              Fetched 160 kB in 1s (152 kB/s)
+
+7[0;52r8[1ASelecting previously unselected package liburing2:amd64.
+(Reading database… (Reading database… 5%(Reading database… 10%(Reading database… 15%(Reading database… 20%(Reading database… 25%(Reading database… 30%(Reading database… 35%(Reading database… 40%(Reading database… 45%(Reading database… 50%(Reading database… 55%(Reading database… 60%(Reading database… 65%(Reading database… 70%(Reading database… 75%(Reading database… 80%(Reading database… 85%(Reading database… 90%(Reading database… 95%(Reading database… 100%(Reading database… 257455 files and directories currently installed.)
+Preparing to unpack …/liburing2_2.5-1build1_amd64.deb…
+7[53;0f[42m[30mProgress: [  0%][49m[39m [.........................................................................................................] 87[53;0f[42m[30mProgress: [ 11%][49m[39m [###########..............................................................................................] 8Unpacking liburing2:amd64 (2.5-1build1)…
+7[53;0f[42m[30mProgress: [ 22%][49m[39m [#######################..................................................................................] 8Selecting previously unselected package plocate.
+Preparing to unpack …/plocate_1.1.19-2ubuntu2_amd64.deb…
+7[53;0f[42m[30mProgress: [ 33%][49m[39m [##################################.......................................................................] 8Unpacking plocate (1.1.19-2ubuntu2)…
+7[53;0f[42m[30mProgress: [ 44%][49m[39m [##############################################...........................................................] 8Setting up liburing2:amd64 (2.5-1build1)…
+7[53;0f[42m[30mProgress: [ 56%][49m[39m [##########################################################...............................................] 87[53;0f[42m[30mProgress: [ 67%][49m[39m [#####################################################################....................................] 8Setting up plocate (1.1.19-2ubuntu2)…
+7[53;0f[42m[30mProgress: [ 78%][49m[39m [#################################################################################........................] 8update-alternatives: using /usr/bin/plocate to provide /usr/bin/locate (locate) in auto mode
+info: Selecting GID from range 100 to 999 ...
+info: Adding group `plocate' (GID 126) ...
+Initializing plocate database; this may take some time... done
+Created symlink /etc/systemd/system/timers.target.wants/plocate-updatedb.timer → /usr/lib/systemd/system/plocate-updatedb.timer.
+7[53;0f[42m[30mProgress: [ 89%][49m[39m [#############################################################################################............] 8Processing triggers for man-db (2.12.0-4build2)…
+Processing triggers for libc-bin (2.39-0ubuntu8.9)…
+
+7[0;53r8[1A[J[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo updatedb[27msudo updatedb
+[?2004l[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mlocate nginx.conf[27mlocate nginx.conf
+[?2004l/etc/nginx/nginx.conf
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo mkdir -p /var/www /var/images[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo mkdir -p /var/www /var/images
+[?2004l[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo cp ~/index.html /var/www/[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo cp ~/index.html /var/www/
+[?2004l[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mls ~/Pictures[27mls ~/Pictures
+[?2004l[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo cp ~/Pictures/*.jpg /var/images/[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo cp ~/Pictures/*.jpg /var/images/
+[?2004lcp: cannot stat '/home/adil/Pictures/*.jpg': No such file or directory
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mfind /usr/share/backgrounds -name "*.jpg" | head[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfind /usr/share/backgrounds -name "*.jpg" | head
+[?2004l/usr/share/backgrounds/cosmos/galaxy-ngc3370.jpg
+/usr/share/backgrounds/cosmos/blue-marble-west.jpg
+/usr/share/backgrounds/cosmos/jupiter.jpg
+/usr/share/backgrounds/cosmos/sombrero.jpg
+/usr/share/backgrounds/cosmos/earth-horizon.jpg
+/usr/share/backgrounds/cosmos/helix-nebula.jpg
+/usr/share/backgrounds/cosmos/whirlpool.jpg
+/usr/share/backgrounds/cosmos/comet.jpg
+/usr/share/backgrounds/cosmos/cloud.jpg
+/usr/share/backgrounds/ubuntu-mate-common/Grey-Jazz.jpg
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo cp /usr/share/backgrounds/<name1>.jpg /usr/share/backgrounds/<name2>.jpg /var/images/[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo cp /usr/share/backgrounds/<name1>.jpg /usr/share/backgrounds/<name2>.jpg /var/images/
+[?2004lbash: name1: No such file or directory
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mls -l /var/www /var/images[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -l /var/www /var/images
+[?2004l/var/images:
+total 0
+
+/var/www:
+total 8
+drwxr-xr-x 2 root root 4096 Nov 12 22:37 [0m[01;34mhtml[0m
+-rw-r--r-- 1 root root  429 Nov 12 22:46 index.html
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo nano /etc/nginx/nginx.conf[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo nano /etc/nginx/nginx.conf
+[?2004l[?2004h[?1049h[22;0;0t[1;53r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[51;57H(B[0;7m[ Reading... ](B[m[51;56H(B[0;7m[ Read 83 lines ](B[m[H(B[0;7m  GNU nano 7.2                                         /etc/nginx/nginx.conf                                                   [1;126H(B[m[52d(B[0;7m^G(B[m Help[52;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[52;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[53d(B[0;7m^X(B[m Exit[53;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2duser www-data;[3dworker_processes auto;[4dpid /run/nginx.pid;[5derror_log /var/log/nginx/error.log;[6dinclude /etc/nginx/modules-enabled/*.conf;[8devents {[9d[38;5;208m[1K [39m(B[mworker_connections 768;[10;8H[38;5;208m[1K [36m# multi_accept on;[11d[39m(B[m}[13dhttp {[15;8H[38;5;208m[1K [36m##[16;8H[38;5;208m[1K [36m# Basic Settings[17;8H[38;5;208m[1K [36m##[19;8H[38;5;208m[1K [39m(B[msendfile on;[20;8H[38;5;208m[1K [39m(B[mtcp_nopush on;[21;8H[38;5;208m[1K [39m(B[mtypes_hash_max_size 2048;[22;8H[38;5;208m[1K [36m# server_tokens off;[24;8H[38;5;208m[1K [36m# server_names_hash_bucket_size 64;[25;8H[38;5;208m[1K [36m# server_name_in_redirect off;[27;8H[38;5;208m[1K [39m(B[minclude /etc/nginx/mime.types;[28;8H[38;5;208m[1K [39m(B[mdefault_type application/octet-stream;[30;8H[38;5;208m[1K [36m##[31;8H[38;5;208m[1K [36m# SSL Settings[32;8H[38;5;208m[1K [36m##[34;8H[38;5;208m[1K [39m(B[mssl_protocols TLSv1 TLSv1.1 TLSv1.2 TLSv1.3; # Dropping SSLv3, ref: POODLE[35;8H[38;5;208m[1K [39m(B[mssl_prefer_server_ciphers on;[37;8H[38;5;208m[1K [36m##[38;8H[38;5;208m[1K [36m# Logging Settings[39;8H[38;5;208m[1K [36m##[41;8H[38;5;208m[1K [39m(B[maccess_log /var/log/nginx/access.log;[43;8H[38;5;208m[1K [36m##[44;8H[38;5;208m[1K [36m# Gzip Settings[45;8H[38;5;208m[1K [36m##[47;8H[38;5;208m[1K [39m(B[mgzip on;[49;8H[38;5;208m[1K [36m# gzip_vary on;[50;8H[38;5;208m[1K [36m# gzip_proxied any;[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[51d[K[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h[28d[?25l[?12l[?25h[29d[?25l[?12l[?25h[30d[?25l[?12l[?25h[31d[?25l[?12l[?25h[32d[?25l[?12l[?25h[33d[?25l[?12l[?25h[34d[?25l[?12l[?25h[35d[?25l[?12l[?25h[36d[?25l[?12l[?25h[37d[?25l[?12l[?25h[38d[?25l[?12l[?25h[39d[?25l[?12l[?25h[40d[?25l[?12l[?25h[41d[?25l[?12l[?25h[42d[?25l[?12l[?25h[43d[?25l[?12l[?25h[44d[?25l[?12l[?25h[45d[?25l[?12l[?25h[46d[?25l[?12l[?25h[47d[?25l[?12l[?25h[48d[?25l[?12l[?25h[49d[?25l[?12l[?25h[50d[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [36m# gzip_comp_level 6;[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [36m# gzip_buffers 16 8k;[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [36m# gzip_http_version 1.1;[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [36m# gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss [39m(B[0;7m>[50;1H(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [36m##[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [36m# Virtual Host Configs[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [36m##[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [39m(B[minclude /etc/nginx/conf.d/*.conf;[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [39m(B[minclude /etc/nginx/sites-enabled/*;[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H}[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#mail {[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m       [36m# See sample authentication script at:[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m       [36m# http://wiki.nginx.org/ImapAuthenticateWithApachePhpScript[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m       [36m# auth_http localhost/auth.php;[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m       [36m# pop3_capabilities "TOP" "USER";[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m       [36m# imap_capabilities "IMAP4rev1" "UIDPLUS";[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m       [36mserver {[39m(B[m[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [36m# server_names_hash_bucket_size 64;[39m(B[m[?25l[?12l[?25h7[2;50r8M[1;53r[2;1H[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [36m# server_tokens off;[39m(B[m[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [39m(B[mtypes_hash_max_size 2048;[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [39m(B[mtcp_nopush on;[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [39m(B[msendfile on;[?25l[?12l[?25h7[2;50r8M[1;53r[2;1H[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [36m##[39m(B[m[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [36m# Basic Settings[39m(B[m[?25l[?12l[?25h7[2;51r8M[1;53r[2;8H[38;5;208m[1K [36m##[39m(B[m[?25l[?12l[?25h7[2;51r8M[1;53r[2;1H[?25l[?12l[?25h7[2;50r8M[1;53r[2;1Hhttp {[?25l[?12l[?25h7[2;50r8M[1;53r[2;1H[?25l[?12l[?25h7[2;50r8M[1;53r[2;1H}[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h[28d[?25l[?12l[?25h[29d[?25l[?12l[?25h[30d[?25l[?12l[?25h[31d[?25l[?12l[?25h[32d[?25l[?12l[?25h[33d[?25l[?12l[?25h[34d[?25l[?12l[?25h[35d[?25l[?12l[?25h[36d[?25l[?12l[?25h[37d[?25l[?12l[?25h[38d[?25l[?12l[?25h[39d[?25l[?12l[?25h[40d[?25l[?12l[?25h[41d[?25l[?12l[?25h[42d[?25l[?12l[?25h[43d[?25l[?12l[?25h[44d[?25l[?12l[?25h[45d[?25l[?12l[?25h[46d[?25l[?12l[?25h[47d[?25l[?12l[?25h[48d[?25l[?12l[?25h[49d[?25l[?12l[?25h[50d[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [39m(B[minclude /etc/nginx/conf.d/*.conf;[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [39m(B[minclude /etc/nginx/sites-enabled/*;[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H}[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#mail {[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m       [36m# See sample authentication script at:[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m       [36m# http://wiki.nginx.org/ImapAuthenticateWithApachePhpScript[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m       [36m# auth_http localhost/auth.php;[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m       [36m# pop3_capabilities "TOP" "USER";[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m       [36m# imap_capabilities "IMAP4rev1" "UIDPLUS";[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m       [36mserver {[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m[15X[50;17H[36mlisten     localhost:110;[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m[15X[50;17H[36mprotocol   pop3;[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m[15X[50;17H[36mproxy      on;[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m       [36m}[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m       [36mserver {[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m[15X[50;17H[36mlisten     localhost:143;[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m[15X[50;17H[36mprotocol   imap;[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m[15X[50;17H[36mproxy      on;[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m       [36m}[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#}[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;51r8M[1;53r[2;1H[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [39m(B[mssl_prefer_server_ciphers on;[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [39m(B[mssl_protocols TLSv1 TLSv1.1 TLSv1.2 TLSv1.3; # Dropping SSLv3, ref: POODLE[?25l[?12l[?25h7[2;50r8M[1;53r[2;1H[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [36m##[39m(B[m[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [36m# SSL Settings[39m(B[m[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [36m##[39m(B[m[?25l[?12l[?25h7[2;50r8M[1;53r[2;1H[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [39m(B[mdefault_type application/octet-stream;[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [39m(B[minclude /etc/nginx/mime.types;[?25l[?12l[?25h7[2;50r8M[1;53r[2;1H[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [36m# server_name_in_redirect off;[39m(B[m[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [36m# server_names_hash_bucket_size 64;[39m(B[m[?25l[?12l[?25h7[2;50r8M[1;53r[2;1H[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [36m# server_tokens off;[39m(B[m[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [39m(B[mtypes_hash_max_size 2048;[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [39m(B[mtcp_nopush on;[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [39m(B[msendfile on;[?25l[?12l[?25h7[2;50r8M[1;53r[2;1H[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [36m##[39m(B[m[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [36m# Basic Settings[39m(B[m[?25l[?12l[?25h7[2;51r8M[1;53r[2;8H[38;5;208m[1K [36m##[39m(B[m[?25l[?12l[?25h7[2;51r8M[1;53r[2;1H[?25l[?12l[?25h7[2;50r8M[1;53r[2;1Hhttp {[?25l[?12l[?25h7[2;50r8M[1;53r[2;1H[?25l[?12l[?25h7[2;50r8M[1;53r[2;1H}[?25l[?12l[?25h7[2;51r8M[1;53r[2;8H[38;5;208m[1K [36m# multi_accept on;[39m(B[m[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [39m(B[mworker_connections 768;[?25l[?12l[?25h7[2;50r8M[1;53r[2;1Hevents {[?25l[?12l[?25h7[2;50r8M[1;53r[2;1H[?25l[?12l[?25h7[2;51r8M[1;53r[2;1Hinclude /etc/nginx/modules-enabled/*.conf;[?25l[?12l[?25h7[2;50r8M[1;53r[2;1Herror_log /var/log/nginx/error.log;[?25l[?12l[?25h7[2;50r8M[1;53r[2;1Hpid /run/nginx.pid;[?25l[?12l[?25h7[2;50r8M[1;53r[2;1Hworker_processes auto;[?25l[?12l[?25h7[2;50r8M[1;53r[2;1Huser www-data;[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h[28d[?25l[?12l[?25h[29d[?25l[?12l[?25h[30d[?25l[?12l[?25h[31d[?25l[?12l[?25h[32d[?25l[?12l[?25h[33d[?25l[?12l[?25h[34d[?25l[?12l[?25h[35d[?25l[?12l[?25h[36d[?25l[?12l[?25h[37d[?25l[?12l[?25h[38d[?25l[?12l[?25h[39d[?25l[?12l[?25h[40d[?25l[?12l[?25h[41d[?25l[?12l[?25h[42d[?25l[?12l[?25h[43d[?25l[?12l[?25h[44d[?25l[?12l[?25h[45d[?25l[?12l[?25h[46d[?25l[?12l[?25h[47d[?25l[?12l[?25h[48d[?25l[?12l[?25h[49d[?25l[?12l[?25h[50d[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [36m# gzip_comp_level 6;[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [36m# gzip_buffers 16 8k;[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [36m# gzip_http_version 1.1;[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [36m# gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss [39m(B[0;7m>[50;1H(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [36m##[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [36m# Virtual Host Configs[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [36m##[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [39m(B[minclude /etc/nginx/conf.d/*.conf;[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [39m(B[minclude /etc/nginx/sites-enabled/*;[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H}[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[?25l[?12l[?25h[A[?25l[?12l[?25h[50d[?25l[?12l[?25h[A[?25l[?12l[?25h[A}[?25l[?12l[?25h[?25l[?12l[?25h[47;44H[?25l[1;78H(B[0;7m*[126G(B[m[48;51r[48;1HM[1;53r[48;1H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25hv[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25h [?25l[?12l[?25h{[?25l[49d[K[50d}[A[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25hl[?25l[?12l[?25hi[?25l[2;51r[51;1H[7S[1;53r[42;17Hserver {[43;8H[1K listen 8080;[44;9Hlocation / {[45;13Hroot /var/www;[46;9H}[47dlocation /images/ {[48;13Hroot /var;[49;9H}[50;5H}[?12l[?25h[?25l[?12l[?25h[K    [?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l}[49;10H[?12l[?25h[?25l[?12l[?25h[K[49;9H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l}[50d[K[48;23H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[48;13H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[48;51r[51;1H
+[1;53r[47;28H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[47;9H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[47;51r[51;1H
+[1;53r[50;1H[36m#mail {[46;10H[39m(B[m[?12l[?25h[?25l[?12l[?25h[K[46;9H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[46;51r[51;1H
+[1;53r[50;1H[36m#[38;5;208m       [36m# See sample authentication script at:[45;27H[39m(B[m[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[45;13H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[45;51r[51;1H
+[1;53r[50;1H[36m#[38;5;208m       [36m# http://wiki.nginx.org/ImapAuthenticateWithApachePhpScript[44;21H[39m(B[m[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[44;9H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[44;51r[51;1H
+[1;53r[50;1H[36m#[43;21H[39m(B[m[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[43;9H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[43;51r[51;1H
+[1;53r[50;1H[36m#[38;5;208m       [36m# auth_http localhost/auth.php;[42;25H[39m(B[m[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h[K[42;14H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[42;51r[51;1H
+[1;53r[50;1H[36m#[38;5;208m       [36m# pop3_capabilities "TOP" "USER";[41;17H[39m(B[m[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[41;9H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[41;51r[51;1H
+[1;53r[50;1H[36m#[38;5;208m       [36m# imap_capabilities "IMAP4rev1" "UIDPLUS";[40;44H[39m(B[m[?12l[?25h[?25l7[41;50r8[41dM[1;53r[41;1H[?12l[?25h[?25l[2;51r[51;1H[15S[1;53r[36;1H[36m#[38;5;208m       [36m# imap_capabilities "IMAP4rev1" "UIDPLUS";[37d#[38d#[38;5;208m       [36mserver {[39d#[38;5;208m[15X[39;17H[36mlisten     localhost:110;[40d#[38;5;208m[15X[40;17H[36mprotocol   pop3;[41d#[38;5;208m[15X[41;17H[36mproxy      on;[42d#[38;5;208m       [36m}[43d#[44d#[38;5;208m       [36mserver {[45d#[38;5;208m[15X[45;17H[36mlisten     localhost:143;[46d#[38;5;208m[15X[46;17H[36mprotocol   imap;[47d#[38;5;208m[15X[47;17H[36mproxy      on;[48d#[38;5;208m       [36m}[49d#}[50d[39m(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[44d[?25l[?12l[?25h[38d[?25l[?12l[?25h[32d[?25l[?12l[?25h[26d[?25l[?12l[?25h[20d[?25l[?12l[?25h[14d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;51r8M[1;53r[2;8H[38;5;208m[1K [36m##[39m(B[m[?25l[?12l[?25h7[2;50r8M[1;53r[2;1H[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [39m(B[mssl_prefer_server_ciphers on;[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [39m(B[mssl_protocols TLSv1 TLSv1.1 TLSv1.2 TLSv1.3; # Dropping SSLv3, ref: POODLE[?25l[?12l[?25h7[2;50r8M[1;53r[2;1H[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [36m##[39m(B[m[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [36m# SSL Settings[39m(B[m[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [36m##[39m(B[m[?25l[?12l[?25h7[2;50r8M[1;53r[2;1H[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [39m(B[mdefault_type application/octet-stream;[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [39m(B[minclude /etc/nginx/mime.types;[?25l[?12l[?25h7[2;50r8M[1;53r[2;1H[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [36m# server_name_in_redirect off;[39m(B[m[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [36m# server_names_hash_bucket_size 64;[39m(B[m[?25l[?12l[?25h7[2;50r8M[1;53r[2;1H[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [36m# server_tokens off;[39m(B[m[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [39m(B[mtypes_hash_max_size 2048;[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [39m(B[mtcp_nopush on;[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [39m(B[msendfile on;[?25l[?12l[?25h7[2;50r8M[1;53r[2;1H[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [36m##[39m(B[m[?25l[?12l[?25h7[2;51r8M[1;53r[2;8H[38;5;208m[1K [36m# Basic Settings[39m(B[m[?25l[?12l[?25h7[2;51r8M[1;53r[2;8H[38;5;208m[1K [36m##[39m(B[m[?25l[?12l[?25h7[2;50r8M[1;53r[2;1H[?25l[?12l[?25h7[2;51r8M[1;53r[2;1Hhttp {[?25l[?12l[?25h7[2;50r8M[1;53r[2;1H[?25l[?12l[?25h7[2;50r8M[1;53r[2;1H}[?25l[?12l[?25h7[2;51r8M[1;53r[2;8H[38;5;208m[1K [36m# multi_accept on;[39m(B[m[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [39m(B[mworker_connections 768;[?25l[?12l[?25h7[2;50r8M[1;53r[2;1Hevents {[?25l[?12l[?25h7[2;50r8M[1;53r[2;1H[?25l[?12l[?25h7[2;51r8M[1;53r[2;1Hinclude /etc/nginx/modules-enabled/*.conf;[?25l[?12l[?25h7[2;50r8M[1;53r[2;1Herror_log /var/log/nginx/error.log;[?25l[?12l[?25h7[2;50r8M[1;53r[2;1Hpid /run/nginx.pid;[?25l[?12l[?25h7[2;50r8M[1;53r[2;1Hworker_processes auto;[?25l[?12l[?25h7[2;50r8M[1;53r[2;1Huser www-data;[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h[28d[?25l[?12l[?25h[29d[?25l[?12l[?25h[30d[?25l[?12l[?25h[31d[?25l[?12l[?25h[32d[?25l[?12l[?25h[33d[?25l[?12l[?25h[34d[?25l[?12l[?25h[35d[?25l[?12l[?25h[36d[?25l[?12l[?25h[37d[?25l[?12l[?25h[38d[?25l[?12l[?25h[39d[?25l[?12l[?25h[40d[?25l[?12l[?25h[41d[?25l[?12l[?25h[42d[?25l[?12l[?25h[43d[?25l[?12l[?25h[44d[?25l[?12l[?25h[45d[?25l[?12l[?25h[46d[?25l[?12l[?25h[47d[?25l[?12l[?25h[48d[?25l[?12l[?25h[49d[?25l[?12l[?25h[50d[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [36m# gzip_comp_level 6;[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [36m# gzip_buffers 16 8k;[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [36m# gzip_http_version 1.1;[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [36m# gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss [39m(B[0;7m>[50;1H(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [36m##[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [36m# Virtual Host Configs[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [36m##[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [39m(B[minclude /etc/nginx/conf.d/*.conf;[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [39m(B[minclude /etc/nginx/sites-enabled/*;[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H}[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#mail {[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m       [36m# See sample authentication script at:[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m       [36m# http://wiki.nginx.org/ImapAuthenticateWithApachePhpScript[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m       [36m# auth_http localhost/auth.php;[39m(B[m[?25l[?12l[?25h[A[?25l[?12l[?25h[50d[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m       [36m# pop3_capabilities "TOP" "USER";[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m       [36m# imap_capabilities "IMAP4rev1" "UIDPLUS";[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m       [36mserver {[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m[15X[50;17H[36mlisten     localhost:110;[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m[15X[50;17H[36mprotocol   pop3;[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m[15X[50;17H[36mproxy      on;[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m       [36m}[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m       [36mserver {[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m[15X[50;17H[36mlisten     localhost:143;[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m[15X[50;17H[36mprotocol   imap;[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m[15X[50;17H[36mproxy      on;[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m       [36m}[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#}[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[31d[?25l[?12l[?25h[32d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l7[26;50r8[8T[1;53r[26;5Hserver {[27;9Hlisten 8080;[28;9Hlocation / {[29;13Hroot /var/www;[30;9H}[31dlocation /images/ {[32;13Hroot /var;[33;9H}[34;5H}[?12l[?25h[?25l[?12l[?25h[28d[?25l[?12l[?25h[22d[?25l[?12l[?25h[16d[?25l[?12l[?25h[14d[?25l[?12l[?25h[10d[?25l[?12l[?25h[8d[?25l[?12l[?25h[4d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [36m##[39m(B[m[?25l[?12l[?25h7[2;50r8M[1;53r[2;1H[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [39m(B[mssl_prefer_server_ciphers on;[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [39m(B[mssl_protocols TLSv1 TLSv1.1 TLSv1.2 TLSv1.3; # Dropping SSLv3, ref: POODLE[?25l[?12l[?25h7[2;50r8M[1;53r[2;1H[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [36m##[39m(B[m[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [36m# SSL Settings[39m(B[m[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [36m##[39m(B[m[?25l[?12l[?25h7[2;50r8M[1;53r[2;1H[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [39m(B[mdefault_type application/octet-stream;[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [39m(B[minclude /etc/nginx/mime.types;[?25l[?12l[?25h7[2;50r8M[1;53r[2;1H[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [36m# server_name_in_redirect off;[39m(B[m[?25l[?12l[?25h7[2;51r8M[1;53r[2;8H[38;5;208m[1K [36m# server_names_hash_bucket_size 64;[39m(B[m[?25l[?12l[?25h7[2;51r8M[1;53r[2;1H[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [36m# server_tokens off;[39m(B[m[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [39m(B[mtypes_hash_max_size 2048;[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [39m(B[mtcp_nopush on;[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [39m(B[msendfile on;[?25l[?12l[?25h7[2;50r8M[1;53r[2;1H[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [36m##[39m(B[m[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [36m# Basic Settings[39m(B[m[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [36m##[39m(B[m[?25l[?12l[?25h7[2;50r8M[1;53r[2;1H[?25l[?12l[?25h7[2;50r8M[1;53r[2;1Hhttp {[?25l[?12l[?25h7[2;50r8M[1;53r[2;1H[?25l[?12l[?25h7[2;50r8M[1;53r[2;1H}[?25l[?12l[?25h7[2;51r8M[1;53r[2;8H[38;5;208m[1K [36m# multi_accept on;[39m(B[m[?25l[?12l[?25h7[2;50r8M[1;53r[2;8H[38;5;208m[1K [39m(B[mworker_connections 768;[?25l[?12l[?25h7[2;50r8M[1;53r[2;1Hevents {[?25l[?12l[?25h7[2;50r8M[1;53r[2;1H[?25l[?12l[?25h7[2;51r8M[1;53r[2;1Hinclude /etc/nginx/modules-enabled/*.conf;[6G[?25l[?12l[?25h7[2;50r8M[1;53r[2;1Herror_log /var/log/nginx/error.log;[6G[?25l[?12l[?25h7[2;50r8M[1;53r[2;1Hpid /run/nginx.pid;[6G[?25l[?12l[?25h7[2;50r8M[1;53r[2;1Hworker_processes auto;[6G[?25l[?12l[?25h7[2;50r8M[1;53r[2;1Huser www-data;[6G[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8;6H[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d}[?25l[?12l[?25h[12d[?25l[?12l[?25h[13;6H[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h[28d[?25l[?12l[?25h[29d[?25l[?12l[?25h[30d[?25l[?12l[?25h[31d[?25l[?12l[?25h[32d[?25l[?12l[?25h[33d[?25l[?12l[?25h[34d[?25l[?12l[?25h[35d[?25l[?12l[?25h[36d[?25l[?12l[?25h[37d[?25l[?12l[?25h[38d[?25l[?12l[?25h[39d[?25l[?12l[?25h[40d[?25l[?12l[?25h[41d[?25l[?12l[?25h[42d[?25l[?12l[?25h[43d[?25l[?12l[?25h[44d[?25l[?12l[?25h[45d[?25l[?12l[?25h[46d[?25l[?12l[?25h[47d[?25l[?12l[?25h[48d[?25l[?12l[?25h[49d[?25l[?12l[?25h[50d[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [36m# gzip_comp_level 6;[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [36m# gzip_buffers 16 8k;[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [36m# gzip_http_version 1.1;[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [36m# gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss [39m(B[0;7m>[50;1H(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [36m##[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [36m# Virtual Host Configs[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [36m##[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [39m(B[minclude /etc/nginx/conf.d/*.conf;[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;8H[38;5;208m[1K [39m(B[minclude /etc/nginx/sites-enabled/*;[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;5Hserver {[6G[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;9Hlisten 8080;[6G[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;9Hlocation / {[6G[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;13Hroot /var/www;[6G[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;9H}[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;9Hlocation /images/ {[6G[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;13Hroot /var;[6G[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;9H}[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;5H}[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H}[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#mail {[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m       [36m# See sample authentication script at:#[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m       [36m# http://wiki.nginx.org/ImapAuthenticateWithApachePhpScript#[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m       [36m# auth_http localhost/auth.php;#[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m       [36m# pop3_capabilities "TOP" "USER";#[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m       [36m# imap_capabilities "IMAP4rev1" "UIDPLUS";#[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[39m(B[m[?25l[?12l[?25h7[2;51r8[51d
+[1;53r[50;1H[36m#[38;5;208m       [36mserver {#[39m(B[m[?25l[52;16H[16X[52;32H(B[0;7mM-D(B[m DOS Format      [52;61H  (B[0;7mM-A(B[m Append[21X[52;94H(B[0;7mM-B(B[m Backup File[K[53;2H(B[0;7mC(B[m Cancel[16G[16X[53;32H(B[0;7mM-M(B[m Mac Format        [61G  (B[0;7mM-P(B[m Prepend[20X[53;94H(B[0;7m^T(B[m Browse[K[51d(B[0;7mFile Name to Write: /etc/nginx/nginx.conf                                                                                      [51;42H(B[m[?12l[?25h[?25l[51;56H[1K (B[0;7m[ Writing... ](B[m[K[1;78H(B[0;7m [126G(B[m[51;55H(B[0;7m[ Wrote 92 lines ](B[m[52;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[52;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo       (B[0;7mM-A(B[m Set Mark[53;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo       (B[0;7mM-6(B[m Copy[?12l[?25h[50;2H[?25l[51d[J[53d[?12l[?25h[53;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo nginx -t[27msudo nginx -t
+[?2004lnginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo nginx -s reload[27msudo nginx -s reload
+[?2004l2026/11/12 22:55:10 [notice] 7109#7109: signal process started
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mls -l /var/www /var/images[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -l /var/www /var/images
+[?2004l/var/images:
+total 0
+
+/var/www:
+total 8
+drwxr-xr-x 2 root root 4096 Nov 12 22:37 [0m[01;34mhtml[0m
+-rw-r--r-- 1 root root  429 Nov 12 22:46 index.html
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo cp /usr/share/backgrounds/cosmos/jupiter.jpg /usr/share/backgrounds/cosmos/comet.jpg /usr/share/ba[27m[7mc[27m[7mkgrounds/cosmos/cloud.jpg /var/images/[27m[Asudo cp /usr/share/backgrounds/cosmos/jupiter.jpg /usr/share/backgrounds/cosmos/comet.jpg /usr/share/backgrounds/cosmos/cloud.jpg /var/images/
+[?2004l[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mls -l /var/images[27mls -l /var/images
+[?2004ltotal 1468
+-rw-r--r-- 1 root root 1314514 Nov 12 22:57 [0m[01;35mcloud.jpg[0m
+-rw-r--r-- 1 root root  141297 Nov 12 22:57 [01;35mcomet.jpg[0m
+-rw-r--r-- 1 root root   44528 Nov 12 22:57 [01;35mjupiter.jpg[0m
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo ss -tlnp | grep nginx[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo ss -tlnp | grep nginx
+[?2004lLISTEN 0      511          0.0.0.0:8080      0.0.0.0:*    users:(("[01;31m[Knginx[m[K",pid=7111,fd=13),("[01;31m[Knginx[m[K",pid=7110,fd=13),("[01;31m[Knginx[m[K",pid=6087,fd=13))
+LISTEN 0      511          0.0.0.0:80        0.0.0.0:*    users:(("[01;31m[Knginx[m[K",pid=7111,fd=5),("[01;31m[Knginx[m[K",pid=7110,fd=5),("[01;31m[Knginx[m[K",pid=6087,fd=5))   
+LISTEN 0      511             [::]:80           [::]:*    users:(("[01;31m[Knginx[m[K",pid=7111,fd=6),("[01;31m[Knginx[m[K",pid=7110,fd=6),("[01;31m[Knginx[m[K",pid=6087,fd=6))   
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-12 23:05:01+03:00 [COMMAND_EXIT_CODE="0"]

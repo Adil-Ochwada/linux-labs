@@ -1,0 +1,630 @@
+Script started on 2026-11-12 06:20:44+03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="80" LINES="24"]
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ sudo cat /etc/passwd
+[?2004l[sudo] password for adil: 
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+_apt:x:42:65534::/nonexistent:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:998:998:systemd Network Management:/:/usr/sbin/nologin
+systemd-timesync:x:996:996:systemd Time Synchronization:/:/usr/sbin/nologin
+dhcpcd:x:100:65534:DHCP Client Daemon,,,:/usr/lib/dhcpcd:/bin/false
+messagebus:x:101:101::/nonexistent:/usr/sbin/nologin
+syslog:x:102:102::/nonexistent:/usr/sbin/nologin
+systemd-resolve:x:991:991:systemd Resolver:/:/usr/sbin/nologin
+uuidd:x:103:103::/run/uuidd:/usr/sbin/nologin
+usbmux:x:104:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+tss:x:105:105:TPM software stack,,,:/var/lib/tpm:/bin/false
+avahi-autoipd:x:106:109:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+kernoops:x:107:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+whoopsie:x:108:111::/nonexistent:/bin/false
+dnsmasq:x:999:65534:dnsmasq:/var/lib/misc:/usr/sbin/nologin
+avahi:x:109:112:Avahi mDNS daemon,,,:/run/avahi-daemon:/usr/sbin/nologin
+lightdm:x:110:113:Light Display Manager:/var/lib/lightdm:/bin/false
+tcpdump:x:111:115::/nonexistent:/usr/sbin/nologin
+sssd:x:112:116:SSSD system user,,,:/var/lib/sss:/usr/sbin/nologin
+speech-dispatcher:x:113:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+cups-pk-helper:x:114:117:user for cups-pk-helper service,,,:/nonexistent:/usr/sbin/nologin
+fwupd-refresh:x:990:990:Firmware update daemon:/var/lib/fwupd:/usr/sbin/nologin
+saned:x:115:119::/var/lib/saned:/usr/sbin/nologin
+cups-browsed:x:116:117::/nonexistent:/usr/sbin/nologin
+hplip:x:117:7:HPLIP system user,,,:/run/hplip:/bin/false
+polkitd:x:989:989:User for polkitd:/:/usr/sbin/nologin
+rtkit:x:118:121:RealtimeKit,,,:/proc:/usr/sbin/nologin
+colord:x:119:122:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+nm-openvpn:x:120:123:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin
+geoclue:x:121:125::/var/lib/geoclue:/usr/sbin/nologin
+adil:x:1000:1000:Adil:/home/adil:/bin/bash
+vboxadd:x:997:1::/var/run/vboxadd:/bin/false
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [K]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ ls 14_result 14_result
+[?2004l14_result  14_result
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ pgrep -a script
+[?2004l5170 script -a 14_result
+5202 script -a 14_result
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-12 06:26:53+03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-11-12 06:40:54+03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="80" LINES="24"]
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ sudo cat/etc/passwd
+[?2004l[sudo] password for adil: 
+sudo: cat/etc/passwd: command not found
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo cat /etc/passwd[27msudo cat /etc/passwd
+[?2004lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+_apt:x:42:65534::/nonexistent:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:998:998:systemd Network Management:/:/usr/sbin/nologin
+systemd-timesync:x:996:996:systemd Time Synchronization:/:/usr/sbin/nologin
+dhcpcd:x:100:65534:DHCP Client Daemon,,,:/usr/lib/dhcpcd:/bin/false
+messagebus:x:101:101::/nonexistent:/usr/sbin/nologin
+syslog:x:102:102::/nonexistent:/usr/sbin/nologin
+systemd-resolve:x:991:991:systemd Resolver:/:/usr/sbin/nologin
+uuidd:x:103:103::/run/uuidd:/usr/sbin/nologin
+usbmux:x:104:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+tss:x:105:105:TPM software stack,,,:/var/lib/tpm:/bin/false
+avahi-autoipd:x:106:109:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+kernoops:x:107:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+whoopsie:x:108:111::/nonexistent:/bin/false
+dnsmasq:x:999:65534:dnsmasq:/var/lib/misc:/usr/sbin/nologin
+avahi:x:109:112:Avahi mDNS daemon,,,:/run/avahi-daemon:/usr/sbin/nologin
+lightdm:x:110:113:Light Display Manager:/var/lib/lightdm:/bin/false
+tcpdump:x:111:115::/nonexistent:/usr/sbin/nologin
+sssd:x:112:116:SSSD system user,,,:/var/lib/sss:/usr/sbin/nologin
+speech-dispatcher:x:113:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+cups-pk-helper:x:114:117:user for cups-pk-helper service,,,:/nonexistent:/usr/sbin/nologin
+fwupd-refresh:x:990:990:Firmware update daemon:/var/lib/fwupd:/usr/sbin/nologin
+saned:x:115:119::/var/lib/saned:/usr/sbin/nologin
+cups-browsed:x:116:117::/nonexistent:/usr/sbin/nologin
+hplip:x:117:7:HPLIP system user,,,:/run/hplip:/bin/false
+polkitd:x:989:989:User for polkitd:/:/usr/sbin/nologin
+rtkit:x:118:121:RealtimeKit,,,:/proc:/usr/sbin/nologin
+colord:x:119:122:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+nm-openvpn:x:120:123:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin
+geoclue:x:121:125::/var/lib/geoclue:/usr/sbin/nologin
+adil:x:1000:1000:Adil:/home/adil:/bin/bash
+vboxadd:x:997:1::/var/run/vboxadd:/bin/false
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo adduser ochwada1[27msudo adduser ochwada1
+[?2004linfo: Adding user `ochwada1' ...
+info: Selecting UID/GID from range 1000 to 59999 ...
+info: Adding new group `ochwada1' (1001) ...
+info: Adding new user `ochwada1' (1001) with group `ochwada1 (1001)' ...
+info: Creating home directory `/home/ochwada1' ...
+info: Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for ochwada1
+Enter the new value, or press ENTER for the default
+	Full Name []: ochwada1
+	Room Number []: 171
+	Work Phone []: +79944288561
+	Home Phone []: +79944288561
+	Other []: 
+Is the information correct? [Y/n] y
+info: Adding new user `ochwada1' to supplemental / extra groups `users' ...
+info: Adding user `ochwada1' to group `users' ...
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ sudo adduser ochwada2
+[?2004linfo: Adding user `ochwada2' ...
+info: Selecting UID/GID from range 1000 to 59999 ...
+info: Adding new group `ochwada2' (1002) ...
+info: Adding new user `ochwada2' (1002) with group `ochwada2 (1002)' ...
+info: Creating home directory `/home/ochwada2' ...
+info: Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for ochwada2
+Enter the new value, or press ENTER for the default
+	Full Name []: ochwada2
+	Room Number []: 171
+	Work Phone []: +79944288561
+	Home Phone []: +79944288561
+	Other []: 
+Is the information correct? [Y/n] Y
+info: Adding new user `ochwada2' to supplemental / extra groups `users' ...
+info: Adding user `ochwada2' to group `users' ...
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ sudo adduser ochwada3
+[?2004linfo: Adding user `ochwada3' ...
+info: Selecting UID/GID from range 1000 to 59999 ...
+info: Adding new group `ochwada3' (1003) ...
+info: Adding new user `ochwada3' (1003) with group `ochwada3 (1003)' ...
+info: Creating home directory `/home/ochwada3' ...
+info: Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for ochwada3
+Enter the new value, or press ENTER for the default
+	Full Name []: ochwada3
+	Room Number []: 171
+	Work Phone []: +79944288561
+	Home Phone []: +799442884 561
+	Other []: 
+Is the information correct? [Y/n] Y
+info: Adding new user `ochwada3' to supplemental / extra groups `users' ...
+info: Adding user `ochwada3' to group `users' ...
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ sudo usermod -aG sudo ochwada3
+[?2004l[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ tail -4 /etc/passwd
+[?2004lvboxadd:x:997:1::/var/run/vboxadd:/bin/false
+ochwada1:x:1001:1001:ochwada1,171,+79944288561,+79944288561:/home/ochwada1:/bin/bash
+ochwada2:x:1002:1002:ochwada2,171,+79944288561,+79944288561:/home/ochwada2:/bin/bash
+ochwada3:x:1003:1003:ochwada3,171,+79944288561,+79944288561:/home/ochwada3:/bin/bash
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mpgrep -a script[27mpgrep -a script
+[?2004l5303 script -a l4_result
+5500 script -a /home/adil/l4_result_ochwada3
+5625 script -a /home/adil/l4_result_ochwada1
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mls -l ~/l4_result*[27mls -l ~/l4_result*
+[?2004l-rw-rw-r-- 1 adil adil 7716 Nov 12 06:45 /home/adil/l4_result
+-rw-rw-r-- 1 adil adil 8192 Nov 12 07:52 /home/adil/l4_result_ochwada1
+-rw-rw-r-- 1 adil adil 2931 Nov 12 07:47 /home/adil/l4_result_ochwada2
+-rw-rw-r-- 1 adil adil 8192 Nov 12 07:45 /home/adil/l4_result_ochwada3
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mtail -3 ~/l4_result_ochwada3[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctail -3 ~/l4_result_ochwada3
+[?2004l[?2004h]0;root@adil-VirtualBox: /home/ochwada3root@adil-VirtualBox:/home/ochwada3# [7mnano 'very important!'[27mnano 'very important!'
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;33H(B[0;7m[ Read 2 lines ](B[m[H(B[0;7m  GNU nano 7.2                     very important!                              [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2dAll personal! University will be closed[3dtomorrow![A[?12l[?25h[?25l[1;52H(B[0;7m*[79G(B[m7[2;21r8[2dM[1;24r[3;1H[?12l[?25h[?25l[2;21r[21;1H
+[1;24r[2;1H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25hA[?25l[?12l[?25hl[?25l[?12l[?25h[3d[?25l[?12l[?25hm[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25hr[?25l[?12l[?25ho[?25l[?12l[?25hw[?25l[?12l[?25h![?25l[?12l[?25h[4d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3;10H[?25l[?12l[?25h [?25l[22d[K[?12l[?25h[3;8H [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-12 07:57:54+03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-11-12 08:03:52+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mps[27mps
+[?2004l    PID TTY          TIME CMD
+   5832 pts/1    00:00:00 bash
+   5838 pts/1    00:00:00 ps
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo ps -u root > proc_list[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo ps -u root > proc_list
+[?2004l[sudo] password for adil: 
+Sorry, try again.
+[sudo] password for adil: 
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mhead -5 proc_list[27mhead -5 proc_list
+[?2004l    PID TTY          TIME CMD
+      1 ?        00:00:03 systemd
+      2 ?        00:00:00 kthreadd
+      3 ?        00:00:00 pool_workqueue_release
+      4 ?        00:00:00 kworker/R-rcu_gp
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mwc -l proc_list[27mwc -l proc_list
+[?2004l107 proc_list
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ 
+[?2004l[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mkill -9 1[27mkill -9 1
+[?2004lbash: kill: (1) - Operation not permitted
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msudo kill -9 1[27msudo kill -9 1
+[?2004l[sudo] password for adil: 
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mps -p 1[27mps -p 1
+[?2004l    PID TTY          TIME CMD
+      1 ?        00:00:03 systemd
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mfirefox &[27mfirefox &
+[?2004l[1] 5921
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ update.go:193: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/local/share/doc /usr/local/share/doc none bind,ro 0 0): cannot write to "/var/lib/snapd/hostfs/usr/local/share/doc" because it would affect the host in "/var/lib/snapd"
+update.go:193: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/share/gimp/2.0/help /usr/share/gimp/2.0/help none bind,ro 0 0): cannot write to "/var/lib/snapd/hostfs/usr/share/gimp/2.0/help" because it would affect the host in "/var/lib/snapd"
+update.go:193: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/share/sphinx_rtd_theme /usr/share/sphinx_rtd_theme none bind,ro 0 0): cannot write to "/var/lib/snapd/hostfs/usr/share/sphinx_rtd_theme" because it would affect the host in "/var/lib/snapd"
+update.go:193: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/share/xubuntu-docs /usr/share/xubuntu-docs none bind,ro 0 0): cannot write to "/var/lib/snapd/hostfs/usr/share/xubuntu-docs" because it would affect the host in "/var/lib/snapd"
+Gtk-[1;32mMessage[0m: [34m14:59:26.599[0m: Failed to load module "appmenu-gtk-module"
+Gtk-[1;32mMessage[0m: [34m14:59:26.600[0m: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+[Parent 5921, Main Thread] WARNING: Failed to mkdir /home/adil/snap/firefox/8863/.config/ibus/bus: Not a directory: 'glib warning', file toolkit/xre/nsSigHandlers.cpp:200
+
+(firefox_firefox:5921): IBUS-[1;33mWARNING[0m **: [34m14:59:27.719[0m: Failed to mkdir /home/adil/snap/firefox/8863/.config/ibus/bus: Not a directory
+
+[?2004l[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mpgrep -a firefox[27mpgrep -a firefox
+[?2004l5921 /snap/firefox/8863/usr/lib/firefox/firefox
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mpstree -p $(pgrep -o firefox)[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpstree -p $(pgrep -o firefox)
+[?2004lfirefox(5921)─┬─Socket Process(6231)─┬─{Socket Process}(6235)
+              │                      ├─{Socket Process}(6236)
+              │                      ├─{Socket Process}(6237)
+              │                      ├─{Socket Process}(6238)
+              │                      └─{Socket Process}(6240)
+              ├─forkserver(6264)─┬─Isolated Web Co(6408)─┬─{Isolated Web Co}(64+
+              │                  │                       ├─{Isolated Web Co}(64+
+              │                  │                       ├─{Isolated Web Co}(64+
+              │                  │                       ├─{Isolated Web Co}(64+
+              │                  │                       ├─{Isolated Web Co}(64+
+              │                  │                       ├─{Isolated Web Co}(64+
+              │                  │                       ├─{Isolated Web Co}(64+
+              │                  │                       ├─{Isolated Web Co}(64+
+              │                  │                       ├─{Isolated Web Co}(64+
+              │                  │                       ├─{Isolated Web Co}(64+
+              │                  │                       ├─{Isolated Web Co}(64+
+              │                  │                       ├─{Isolated Web Co}(64+
+              │                  │                       ├─{Isolated Web Co}(64+
+              │                  │                       ├─{Isolated Web Co}(64+
+              │                  │                       ├─{Isolated Web Co}(64+
+              │                  │                       └─{Isolated Web Co}(68+
+              │                  ├─Privileged Cont(6333)─┬─{Privileged Cont}(63+
+              │                  │                       ├─{Privileged Cont}(63+
+              │                  │                       ├─{Privileged Cont}(63+
+              │                  │                       ├─{Privileged Cont}(63+
+              │                  │                       ├─{Privileged Cont}(63+
+              │                  │                       ├─{Privileged Cont}(63+
+              │                  │                       ├─{Privileged Cont}(63+
+              │                  │                       ├─{Privileged Cont}(63+
+              │                  │                       ├─{Privileged Cont}(63+
+              │                  │                       ├─{Privileged Cont}(63+
+              │                  │                       ├─{Privileged Cont}(63+
+              │                  │                       ├─{Privileged Cont}(63+
+              │                  │                       ├─{Privileged Cont}(63+
+              │                  │                       ├─{Privileged Cont}(64+
+              │                  │                       ├─{Privileged Cont}(64+
+              │                  │                       └─{Privileged Cont}(67+
+              │                  ├─RDD Process(6281)─┬─{RDD Process}(6288)
+              │                  │                   ├─{RDD Process}(6289)
+              │                  │                   └─{RDD Process}(6351)
+              │                  ├─Utility Process(6602)─┬─{Utility Process}(66+
+              │                  │                       ├─{Utility Process}(66+
+              │                  │                       └─{Utility Process}(66+
+              │                  ├─Web Content(6605)─┬─{Web Content}(6611)
+              │                  │                   ├─{Web Content}(6614)
+              │                  │                   ├─{Web Content}(6628)
+              │                  │                   ├─{Web Content}(6631)
+              │                  │                   ├─{Web Content}(6632)
+              │                  │                   ├─{Web Content}(6635)
+              │                  │                   ├─{Web Content}(6636)
+              │                  │                   ├─{Web Content}(6642)
+              │                  │                   ├─{Web Content}(6648)
+              │                  │                   ├─{Web Content}(6660)
+              │                  │                   ├─{Web Content}(6666)
+              │                  │                   ├─{Web Content}(6667)
+              │                  │                   ├─{Web Content}(6701)
+              │                  │                   └─{Web Content}(6702)
+              │                  ├─Web Content(6613)─┬─{Web Content}(6617)
+              │                  │                   ├─{Web Content}(6619)
+              │                  │                   ├─{Web Content}(6626)
+              │                  │                   ├─{Web Content}(6633)
+              │                  │                   ├─{Web Content}(6637)
+              │                  │                   ├─{Web Content}(6640)
+              │                  │                   ├─{Web Content}(6641)
+              │                  │                   ├─{Web Content}(6661)
+              │                  │                   ├─{Web Content}(6668)
+              │                  │                   ├─{Web Content}(6677)
+              │                  │                   ├─{Web Content}(6680)
+              │                  │                   ├─{Web Content}(6681)
+              │                  │                   ├─{Web Content}(6703)
+              │                  │                   └─{Web Content}(6704)
+              │                  ├─Web Content(6620)─┬─{Web Content}(6623)
+              │                  │                   ├─{Web Content}(6624)
+              │                  │                   ├─{Web Content}(6625)
+              │                  │                   ├─{Web Content}(6630)
+              │                  │                   ├─{Web Content}(6634)
+              │                  │                   ├─{Web Content}(6638)
+              │                  │                   ├─{Web Content}(6639)
+              │                  │                   ├─{Web Content}(6700)
+              │                  │                   ├─{Web Content}(6706)
+              │                  │                   ├─{Web Content}(6710)
+              │                  │                   ├─{Web Content}(6711)
+              │                  │                   ├─{Web Content}(6712)
+              │                  │                   ├─{Web Content}(6713)
+              │                  │                   └─{Web Content}(6714)
+              │                  └─WebExtensions(6273)─┬─{WebExtensions}(6276)
+              │                                        ├─{WebExtensions}(6277)
+              │                                        ├─{WebExtensions}(6280)
+              │                                        ├─{WebExtensions}(6285)
+              │                                        ├─{WebExtensions}(6287)
+              │                                        ├─{WebExtensions}(6290)
+              │                                        ├─{WebExtensions}(6291)
+              │                                        ├─{WebExtensions}(6297)
+              │                                        ├─{WebExtensions}(6298)
+              │                                        ├─{WebExtensions}(6299)
+              │                                        ├─{WebExtensions}(6300)
+              │                                        ├─{WebExtensions}(6301)
+              │                                        ├─{WebExtensions}(6302)
+              │                                        ├─{WebExtensions}(6330)
+              │                                        └─{WebExtensions}(6331)
+              ├─{firefox}(6148)
+              ├─{firefox}(6152)
+              ├─{firefox}(6162)
+              ├─{firefox}(6163)
+              ├─{firefox}(6164)
+              ├─{firefox}(6165)
+              ├─{firefox}(6169)
+              ├─{firefox}(6175)
+              ├─{firefox}(6176)
+              ├─{firefox}(6177)
+              ├─{firefox}(6178)
+              ├─{firefox}(6182)
+              ├─{firefox}(6183)
+              ├─{firefox}(6187)
+              ├─{firefox}(6189)
+              ├─{firefox}(6190)
+              ├─{firefox}(6191)
+              ├─{firefox}(6192)
+              ├─{firefox}(6227)
+              ├─{firefox}(6229)
+              ├─{firefox}(6230)
+              ├─{firefox}(6239)
+              ├─{firefox}(6246)
+              ├─{firefox}(6247)
+              ├─{firefox}(6248)
+              ├─{firefox}(6249)
+              ├─{firefox}(6250)
+              ├─{firefox}(6251)
+              ├─{firefox}(6252)
+              ├─{firefox}(6253)
+              ├─{firefox}(6254)
+              ├─{firefox}(6255)
+              ├─{firefox}(6256)
+              ├─{firefox}(6257)
+              ├─{firefox}(6258)
+              ├─{firefox}(6259)
+              ├─{firefox}(6260)
+              ├─{firefox}(6261)
+              ├─{firefox}(6262)
+              ├─{firefox}(6263)
+              ├─{firefox}(6278)
+              ├─{firefox}(6279)
+              ├─{firefox}(6283)
+              ├─{firefox}(6284)
+              ├─{firefox}(6292)
+              ├─{firefox}(6293)
+              ├─{firefox}(6294)
+              ├─{firefox}(6295)
+              ├─{firefox}(6319)
+              ├─{firefox}(6335)
+              ├─{firefox}(6339)
+              ├─{firefox}(6413)
+              ├─{firefox}(6414)
+              ├─{firefox}(6426)
+              ├─{firefox}(6427)
+              ├─{firefox}(6428)
+              ├─{firefox}(6463)
+              ├─{firefox}(6465)
+              ├─{firefox}(6541)
+              ├─{firefox}(6543)
+              ├─{firefox}(6544)
+              ├─{firefox}(6601)
+              ├─{firefox}(6608)
+              ├─{firefox}(6612)
+              ├─{firefox}(6618)
+              ├─{firefox}(6699)
+              ├─{firefox}(6708)
+              ├─{firefox}(6736)
+              ├─{firefox}(6737)
+              ├─{firefox}(6741)
+              └─{firefox}(6841)
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [K]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mpstree -p 5921[27mpstree -p 5921
+[?2004lfirefox(5921)─┬─Socket Process(6231)─┬─{Socket Process}(6235)
+              │                      ├─{Socket Process}(6236)
+              │                      ├─{Socket Process}(6238)
+              │                      └─{Socket Process}(6240)
+              ├─forkserver(6264)─┬─Isolated Web Co(6408)─┬─{Isolated Web Co}(6411)
+              │                  │                       ├─{Isolated Web Co}(6412)
+              │                  │                       ├─{Isolated Web Co}(6415)
+              │                  │                       ├─{Isolated Web Co}(6416)
+              │                  │                       ├─{Isolated Web Co}(6417)
+              │                  │                       ├─{Isolated Web Co}(6419)
+              │                  │                       ├─{Isolated Web Co}(6420)
+              │                  │                       ├─{Isolated Web Co}(6421)
+              │                  │                       ├─{Isolated Web Co}(6422)
+              │                  │                       ├─{Isolated Web Co}(6423)
+              │                  │                       ├─{Isolated Web Co}(6424)
+              │                  │                       ├─{Isolated Web Co}(6425)
+              │                  │                       ├─{Isolated Web Co}(6466)
+              │                  │                       ├─{Isolated Web Co}(6467)
+              │                  │                       └─{Isolated Web Co}(6850)
+              │                  ├─Privileged Cont(6333)─┬─{Privileged Cont}(6337)
+              │                  │                       ├─{Privileged Cont}(6338)
+              │                  │                       ├─{Privileged Cont}(6340)
+              │                  │                       ├─{Privileged Cont}(6341)
+              │                  │                       ├─{Privileged Cont}(6342)
+              │                  │                       ├─{Privileged Cont}(6344)
+              │                  │                       ├─{Privileged Cont}(6345)
+              │                  │                       ├─{Privileged Cont}(6346)
+              │                  │                       ├─{Privileged Cont}(6347)
+              │                  │                       ├─{Privileged Cont}(6348)
+              │                  │                       ├─{Privileged Cont}(6349)
+              │                  │                       ├─{Privileged Cont}(6350)
+              │                  │                       ├─{Privileged Cont}(6451)
+              │                  │                       ├─{Privileged Cont}(6452)
+              │                  │                       ├─{Privileged Cont}(6719)
+              │                  │                       └─{Privileged Cont}(6858)
+              │                  ├─RDD Process(6281)─┬─{RDD Process}(6288)
+              │                  │                   ├─{RDD Process}(6289)
+              │                  │                   └─{RDD Process}(6351)
+              │                  ├─Utility Process(6602)─┬─{Utility Process}(6607)
+              │                  │                       ├─{Utility Process}(6610)
+              │                  │                       └─{Utility Process}(6627)
+              │                  ├─Web Content(6605)─┬─{Web Content}(6611)
+              │                  │                   ├─{Web Content}(6614)
+              │                  │                   ├─{Web Content}(6628)
+              │                  │                   ├─{Web Content}(6631)
+              │                  │                   ├─{Web Content}(6632)
+              │                  │                   ├─{Web Content}(6636)
+              │                  │                   ├─{Web Content}(6642)
+              │                  │                   ├─{Web Content}(6648)
+              │                  │                   ├─{Web Content}(6660)
+              │                  │                   ├─{Web Content}(6666)
+              │                  │                   ├─{Web Content}(6667)
+              │                  │                   ├─{Web Content}(6701)
+              │                  │                   └─{Web Content}(6702)
+              │                  ├─Web Content(6613)─┬─{Web Content}(6617)
+              │                  │                   ├─{Web Content}(6619)
+              │                  │                   ├─{Web Content}(6626)
+              │                  │                   ├─{Web Content}(6633)
+              │                  │                   ├─{Web Content}(6637)
+              │                  │                   ├─{Web Content}(6641)
+              │                  │                   ├─{Web Content}(6661)
+              │                  │                   ├─{Web Content}(6668)
+              │                  │                   ├─{Web Content}(6677)
+              │                  │                   ├─{Web Content}(6680)
+              │                  │                   ├─{Web Content}(6681)
+              │                  │                   ├─{Web Content}(6703)
+              │                  │                   └─{Web Content}(6704)
+              │                  ├─Web Content(6620)─┬─{Web Content}(6623)
+              │                  │                   ├─{Web Content}(6624)
+              │                  │                   ├─{Web Content}(6625)
+              │                  │                   ├─{Web Content}(6630)
+              │                  │                   ├─{Web Content}(6634)
+              │                  │                   ├─{Web Content}(6639)
+              │                  │                   ├─{Web Content}(6700)
+              │                  │                   ├─{Web Content}(6706)
+              │                  │                   ├─{Web Content}(6710)
+              │                  │                   ├─{Web Content}(6711)
+              │                  │                   ├─{Web Content}(6712)
+              │                  │                   ├─{Web Content}(6713)
+              │                  │                   └─{Web Content}(6714)
+              │                  └─WebExtensions(6273)─┬─{WebExtensions}(6276)
+              │                                        ├─{WebExtensions}(6277)
+              │                                        ├─{WebExtensions}(6280)
+              │                                        ├─{WebExtensions}(6285)
+              │                                        ├─{WebExtensions}(6287)
+              │                                        ├─{WebExtensions}(6291)
+              │                                        ├─{WebExtensions}(6297)
+              │                                        ├─{WebExtensions}(6298)
+              │                                        ├─{WebExtensions}(6299)
+              │                                        ├─{WebExtensions}(6300)
+              │                                        ├─{WebExtensions}(6301)
+              │                                        ├─{WebExtensions}(6302)
+              │                                        ├─{WebExtensions}(6330)
+              │                                        ├─{WebExtensions}(6331)
+              │                                        └─{WebExtensions}(6859)
+              ├─{firefox}(6148)
+              ├─{firefox}(6152)
+              ├─{firefox}(6162)
+              ├─{firefox}(6163)
+              ├─{firefox}(6164)
+              ├─{firefox}(6165)
+              ├─{firefox}(6169)
+              ├─{firefox}(6175)
+              ├─{firefox}(6176)
+              ├─{firefox}(6177)
+              ├─{firefox}(6178)
+              ├─{firefox}(6182)
+              ├─{firefox}(6183)
+              ├─{firefox}(6187)
+              ├─{firefox}(6189)
+              ├─{firefox}(6190)
+              ├─{firefox}(6191)
+              ├─{firefox}(6192)
+              ├─{firefox}(6227)
+              ├─{firefox}(6229)
+              ├─{firefox}(6230)
+              ├─{firefox}(6239)
+              ├─{firefox}(6246)
+              ├─{firefox}(6247)
+              ├─{firefox}(6248)
+              ├─{firefox}(6249)
+              ├─{firefox}(6250)
+              ├─{firefox}(6251)
+              ├─{firefox}(6252)
+              ├─{firefox}(6253)
+              ├─{firefox}(6254)
+              ├─{firefox}(6255)
+              ├─{firefox}(6256)
+              ├─{firefox}(6257)
+              ├─{firefox}(6258)
+              ├─{firefox}(6259)
+              ├─{firefox}(6260)
+              ├─{firefox}(6261)
+              ├─{firefox}(6262)
+              ├─{firefox}(6263)
+              ├─{firefox}(6278)
+              ├─{firefox}(6279)
+              ├─{firefox}(6283)
+              ├─{firefox}(6284)
+              ├─{firefox}(6292)
+              ├─{firefox}(6293)
+              ├─{firefox}(6294)
+              ├─{firefox}(6295)
+              ├─{firefox}(6319)
+              ├─{firefox}(6335)
+              ├─{firefox}(6339)
+              ├─{firefox}(6413)
+              ├─{firefox}(6414)
+              ├─{firefox}(6426)
+              ├─{firefox}(6427)
+              ├─{firefox}(6428)
+              ├─{firefox}(6463)
+              ├─{firefox}(6465)
+              ├─{firefox}(6541)
+              ├─{firefox}(6543)
+              ├─{firefox}(6544)
+              ├─{firefox}(6601)
+              ├─{firefox}(6608)
+              ├─{firefox}(6612)
+              ├─{firefox}(6618)
+              ├─{firefox}(6699)
+              ├─{firefox}(6708)
+              ├─{firefox}(6736)
+              ├─{firefox}(6737)
+              ├─{firefox}(6741)
+              ├─{firefox}(6851)
+              ├─{firefox}(6852)
+              ├─{firefox}(6853)
+              ├─{firefox}(6854)
+              ├─{firefox}(6855)
+              ├─{firefox}(6856)
+              └─{firefox}(6857)
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mkill $(pgrep -o firefox)[27mkill $(pgrep -o firefox)
+[?2004l[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+
+[?2004l[1]+  Terminated              firefox
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msleep 2[27msleep 2
+[?2004l[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ 
+[?2004l[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mpgrep -a firefox[27mpgrep -a firefox
+[?2004l[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msu - ochwada1[27msu - ochwada1
+[?2004lPassword: 
+su: Authentication failure
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msu - ochwada1[27msu - ochwada1
+[?2004lPassword: 
+[?2004h]0;ochwada1@adil-VirtualBox: ~[01;32mochwada1@adil-VirtualBox[00m:[01;34m~[00m$ [7mps -u ochwada1[27mps -u ochwada1
+[?2004l    PID TTY          TIME CMD
+   6890 pts/1    00:00:00 bash
+   6903 pts/1    00:00:00 ps
+[?2004h]0;ochwada1@adil-VirtualBox: ~[01;32mochwada1@adil-VirtualBox[00m:[01;34m~[00m$ [7mkillall -u ochwada1[27mkillall -u ochwada1
+[?2004l[?2004h]0;ochwada1@adil-VirtualBox: ~[01;32mochwada1@adil-VirtualBox[00m:[01;34m~[00m$ [7mpgrep -u ochwada1[27mpgrep -u ochwada1
+[?2004l6890
+[?2004h]0;ochwada1@adil-VirtualBox: ~[01;32mochwada1@adil-VirtualBox[00m:[01;34m~[00m$ [7mexit[27mexit
+[?2004llogout
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msu - ochwada1[27msu - ochwada1
+[?2004lPassword: 
+[?2004h]0;ochwada1@adil-VirtualBox: ~[01;32mochwada1@adil-VirtualBox[00m:[01;34m~[00m$ [7msleep 300 &[27msleep 300 &
+[?2004l[1] 6923
+[?2004h]0;ochwada1@adil-VirtualBox: ~[01;32mochwada1@adil-VirtualBox[00m:[01;34m~[00m$ [7msleep 300 &[27msleep 300 &
+[?2004l[2] 6924
+[?2004h]0;ochwada1@adil-VirtualBox: ~[01;32mochwada1@adil-VirtualBox[00m:[01;34m~[00m$ [7mps -u ochwada1[27mps -u ochwada1
+[?2004l    PID TTY          TIME CMD
+   6910 pts/1    00:00:00 bash
+   6923 pts/1    00:00:00 sleep
+   6924 pts/1    00:00:00 sleep
+   6925 pts/1    00:00:00 ps
+[?2004h]0;ochwada1@adil-VirtualBox: ~[01;32mochwada1@adil-VirtualBox[00m:[01;34m~[00m$ [7mkillall -u ochwada1[27mkillall -u ochwada1
+[?2004l[2]+  Terminated              sleep 300
+[?2004h]0;ochwada1@adil-VirtualBox: ~[01;32mochwada1@adil-VirtualBox[00m:[01;34m~[00m$ [7mps -u ochwada1[27mps -u ochwada1
+[?2004l    PID TTY          TIME CMD
+   6910 pts/1    00:00:00 bash
+   6928 pts/1    00:00:00 ps
+[1]+  Terminated              sleep 300
+[?2004h]0;ochwada1@adil-VirtualBox: ~[01;32mochwada1@adil-VirtualBox[00m:[01;34m~[00m$ [7mexit[27mexit
+[?2004llogout
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-12 15:12:51+03:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,68 @@
+Script started on 2026-11-12 07:18:07+03:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="80" LINES="24"]
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msu - ochwada1[27msu - ochwada1
+[?2004lPassword: 
+[?2004h]0;ochwada1@adil-VirtualBox: ~[01;32mochwada1@adil-VirtualBox[00m:[01;34m~[00m$ whoami
+[?2004lochwada1
+[?2004h]0;ochwada1@adil-VirtualBox: ~[01;32mochwada1@adil-VirtualBox[00m:[01;34m~[00m$ groups
+[?2004lochwada1 users Students
+[?2004h]0;ochwada1@adil-VirtualBox: ~[01;32mochwada1@adil-VirtualBox[00m:[01;34m~[00m$ passwd
+[?2004lChanging password for ochwada1.
+Current password: 
+New password: 
+BAD PASSWORD: The password is the same as the old one
+New password: 
+BAD PASSWORD: The password differs with case changes only
+New password: 
+Retype new password: 
+passwd: password updated successfully
+[?2004h]0;ochwada1@adil-VirtualBox: ~[01;32mochwada1@adil-VirtualBox[00m:[01;34m~[00m$ cd ~
+[?2004l[?2004h]0;ochwada1@adil-VirtualBox: ~[01;32mochwada1@adil-VirtualBox[00m:[01;34m~[00m$ nano schedule
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                        schedule                                  [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[1;48H(B[0;7m*[79G(B[m[?12l[?25h[2d1[?25l[?12l[?25h0[?25l[?12l[?25h:[?25l[?12l[?25h0[?25l[?12l[?25h0[?25l[?12l[?25h [?25l[?12l[?25hM[?25l[?12l[?25ha[?25l[?12l[?25ht[?25l[?12l[?25hh[?25l[?12l[?25hs[?25l[3d[?12l[?25h[?25l[?12l[?25h1[?25l[?12l[?25h1[?25l[?12l[?25h:[?25l[?12l[?25h4[?25l[?12l[?25h0[?25l[?12l[?25h [?25l[?12l[?25hP[?25l[22d[K[?12l[?25h[3;8Hh[?25l[?12l[?25hy[?25l[?12l[?25hs[?25l[?12l[?25hi[?25l[?12l[?25hc[?25l[?12l[?25hs[?25l[4d[?12l[?25h[?25l[?12l[?25h1[?25l[?12l[?25h3[?25l[?12l[?25h:[?25l[?12l[?25h3[?25l[?12l[?25h0[?25l[?12l[?25h [?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25hE[?25l[?12l[?25hc[?25l[?12l[?25ho[?25l[?12l[?25hn[?25l[?12l[?25ho[?25l[?12l[?25hm[?25l[?12l[?25hi[?25l[?12l[?25hc[?25l[?12l[?25hs[?25l[5d[?12l[?25h[?25l[?12l[?25h1[?25l[?12l[?25h5[?25l[?12l[?25h:[?25l[?12l[?25h2[?25l[?12l[?25h2[?25l[?12l[?25h [?25l[?12l[?25h0[?25l[?12l[?25h [?25l[?12l[?25hP[?25l[?12l[?25hr[?25l[?12l[?25ho[?25l[?12l[?25hg[?25l[?12l[?25hr[?25l[?12l[?25ha[?25l[?12l[?25hm[?25l[?12l[?25hm[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25hg[?25l[22d(B[0;7mSave modified buffer?                                                           [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;23H[?12l[?25h[?25l[23d(B[0;7m^G(B[m Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[24;61H(B[0;7m^T(B[m Browse[22d(B[0;7mFile Name to Write: schedule(B[m[?12l[?25h[?25l    [1K (B[0;7m[ Writing... ](B[m[K[1;48H(B[0;7m [79G(B[m[22;32H(B[0;7m[ Wrote 4 lines ](B[m[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;ochwada1@adil-VirtualBox: ~[01;32mochwada1@adil-VirtualBox[00m:[01;34m~[00m$ ls -1 schedule
+[?2004lschedule
+[?2004h]0;ochwada1@adil-VirtualBox: ~[01;32mochwada1@adil-VirtualBox[00m:[01;34m~[00m$ chgrp Students schedule
+[?2004l[?2004h]0;ochwada1@adil-VirtualBox: ~[01;32mochwada1@adil-VirtualBox[00m:[01;34m~[00m$ ls -1 schedule
+[?2004lschedule
+[?2004h]0;ochwada1@adil-VirtualBox: ~[01;32mochwada1@adil-VirtualBox[00m:[01;34m~[00m$ ls -ld /home/ochwada1
+[?2004ldrwxr-x--- 3 ochwada1 ochwada1 4096 Nov 12 07:25 [0m[01;34m/home/ochwada1[0m
+[?2004h]0;ochwada1@adil-VirtualBox: ~[01;32mochwada1@adil-VirtualBox[00m:[01;34m~[00m$ [7mls -l schedule[27mls -l schedule
+[?2004l-rw-rw-r-- 1 ochwada1 Students 60 Nov 12 07:25 schedule
+[?2004h]0;ochwada1@adil-VirtualBox: ~[01;32mochwada1@adil-VirtualBox[00m:[01;34m~[00m$ [7mchmod o+x /home/ochwada1[27mchmod o+x /home/ochwada1
+[?2004l[?2004h]0;ochwada1@adil-VirtualBox: ~[01;32mochwada1@adil-VirtualBox[00m:[01;34m~[00m$ [7mls -ld /home/ochwada1[27mls -ld /home/ochwada1
+[?2004ldrwxr-x--x 3 ochwada1 ochwada1 4096 Nov 12 07:25 [0m[01;34m/home/ochwada1[0m
+[?2004h]0;ochwada1@adil-VirtualBox: ~[01;32mochwada1@adil-VirtualBox[00m:[01;34m~[00m$ [7mcat /home/ochwada3/important[27mcat /home/ochwada3/important
+[?2004lAll students need to be in recreation area at 18:00! Sign below if you got this message.
+[?2004h]0;ochwada1@adil-VirtualBox: ~[01;32mochwada1@adil-VirtualBox[00m:[01;34m~[00m$ [7mecho 'ochwada1: received' >> /home/ochwada3/importan[27m[7mt[27m[A]0;ochwada1@adil-VirtualBox: ~[01;32mochwada1@adil-VirtualBox[00m:[01;34m~[00m$ echo 'ochwada1: received' >> /home/ochwada3/important
+[?2004l[?2004h]0;ochwada1@adil-VirtualBox: ~[01;32mochwada1@adil-VirtualBox[00m:[01;34m~[00m$ [7mcat /home/ochwada3/important[27mcat /home/ochwada3/important
+[?2004lAll students need to be in recreation area at 18:00! Sign below if you got this message.
+ochwada1: received
+[?2004h]0;ochwada1@adil-VirtualBox: ~[01;32mochwada1@adil-VirtualBox[00m:[01;34m~[00m$ exit
+[?2004llogout
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mpgrep -a script[27mpgrep -a script
+[?2004l5303 script -a l4_result
+5500 script -a /home/adil/l4_result_ochwada3
+5625 script -a /home/adil/l4_result_ochwada1
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7mtail -5 ~/l4_result_ochwada3[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctail -5 ~/l4_result_ochwada3
+[?2004l[?2004lAll personal! University will be closed$
+tomorrow!$
+[?2004h]0;root@adil-VirtualBox: /home/ochwada3root@adil-VirtualBox:/home/ochwada3# [7mnano 'very important!'[27mnano 'very important!'
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;33H(B[0;7m[ Read 2 lines ](B[m[H(B[0;7m  GNU nano 7.2                     very important!                              [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2dAll personal! University will be closed[3dtomorrow![A[?12l[?25h[?25l[1;52H(B[0;7m*[79G(B[m7[2;21r8[2dM[1;24r[3;1H[?12l[?25h[?25l[2;21r[21;1H
+[1;24r[2;1H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25hA[?25l[?12l[?25hl[?25l[?12l[?25h[3d[?25l[?12l[?25hm[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25hr[?25l[?12l[?25ho[?25l[?12l[?25hw[?25l[?12l[?25h![?25l[?12l[?25h[4d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3;10H[?25l[?12l[?25h [?25l[22d[K[?12l[?25h[3;8H [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ e[Kreset
+[?2004lc]104[!p[?3;4l[4lScript started on 2026-11-12 15:14:48+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="127" LINES="53"]
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ [7msu - ochwada1[27msu - ochwada1
+[?2004lPassword: 
+[?2004h]0;ochwada1@adil-VirtualBox: ~[01;32mochwada1@adil-VirtualBox[00m:[01;34m~[00m$ [7mcat /home/ochwada1/schedule[27mcat /home/ochwada1/schedule
+[?2004l10:00 Maths
+11:40 Physics
+13:30 Economics
+15:20 Programming
+17:00 Databases
+[?2004h]0;ochwada1@adil-VirtualBox: ~[01;32mochwada1@adil-VirtualBox[00m:[01;34m~[00m$ [7mcat /home/ochwada3/important[27mcat /home/ochwada3/important
+[?2004lAll students need to be in recreation area at 18:00! Sign below if you got this message.
+ochwada1: received
+ochwada2: received
+[?2004h]0;ochwada1@adil-VirtualBox: ~[01;32mochwada1@adil-VirtualBox[00m:[01;34m~[00m$ exit
+[?2004llogout
+[?2004h]0;adil@adil-VirtualBox: ~[01;32madil@adil-VirtualBox[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-12 15:15:45+03:00 [COMMAND_EXIT_CODE="0"]
